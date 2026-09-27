@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "extension",
+  "question": "Who directed the 2026 film Her Private Hell?",
+  "answer": "Nicolas Winding Refn",
+  "evidence": "Her Private Hell is a 2026 science fiction thriller film directed, co-written, and produced by Nicolas Winding Refn.",
+  "page": "Her Private Hell (2026 film)",
+  "url": "https://en.wikipedia.org/wiki/Her_Private_Hell_(2026_film)"
+ },
+ "answer": "The 2026 film \"Her Private Hell\" was directed by Nicolas Winding Refn. \n\nFINAL: Nicolas Winding Refn",
+ "correct": true,
+ "cost": 0.00015225000000002042,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who directed the 2026 film Her Private Hell?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PBNP4KTNlIZLG8URWmgLqEen",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Her Private Hell 2026 film director\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PBNP4KTNlIZLG8URWmgLqEen",
+   "content": "[Her Private Hell (2026 film)] <p class=\"mw-empty-elt\"> </p> <p><i><b>Her Private Hell</b></i> (also known as <i><b>Her Private Hell by NWR</b></i>) is a 2026 science fiction thriller film directed, co-written, and produced by Nicolas Winding Refn. Starring Sophie Thatcher, Charles Melton, Havana Rose Liu, Kristine Froseth, Shioli Kutsuna, Aoi Yamada, Dougray Scott, Diego Calva, and Hidetoshi Nishijima, it follows a troubled young woman named Elle, who searches for her father as a mysterious mist engulfs her dystopian city, crossing paths with an American G.I. who searches for his daughter. </p><p>The film had its world premiere out of competition at the 2026 Cannes Film Festival on 18 May, and was theatrically released in the United States by Neon on 24 July. It received mixed reviews from critics, who praised the cinematography and production values, but criticized the narrative's pacing as sluggish and meandering. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>In an eerie, futuristic city engulfed by a mysterious mist, actress Elle returns home to the Tower Hotel. She meets her new co-star Hunter, a young influencer whose travel arrangements were disrupted by the mist. Brought to stay in Elle's family's suite, the naïve Hunter is enamored with the jaded Elle's opulent life. Elle has a strained relationship with her friend-turned-stepmother Dominique, who married her lecherous father, famed filmmaker Johnny Thunders. </p><p>The women have a fitting with sinister dressmakers Ms. S and Ms. T, who prick Elle with a pin as a sign of good luck. Later, Johnny Thunders tells the women about the legend of the Leatherman, a murderous spirit with diamond-encrusted gloves, who appears with the mist and can only be killed by cutting off his hands. Elle hopes that the film she and her father are making will bring them closer together, but he soon departs after urging her to bury the hatchet with Dominique. Elle and Hunter witness the Leatherman murder a neighb"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 film \"Her Private Hell\" was directed by Nicolas Winding Refn. \n\nFINAL: Nicolas Winding Refn",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-139",
+  "source": "extension",
+  "question": "Who was the first male player to appear in six FIFA World Cups?",
+  "answer": "Lionel Messi",
+  "evidence": "Argentine forward and captain Lionel Messi becomes the first male player to appear in six FIFA World Cups",
+  "page": "Portal:Current events/June 2026",
+  "url": "https://en.wikipedia.org/wiki/Portal:Current_events/June_2026"
+ },
+ "answer": "The first male player to appear in six FIFA World Cups is Lothar Matthäus from Germany. FINAL: Lothar Matthäus",
+ "correct": false,
+ "cost": 3.0750000000023814e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was the first male player to appear in six FIFA World Cups?"
+  },
+  {
+   "role": "assistant",
+   "content": "The first male player to appear in six FIFA World Cups is Lothar Matthäus from Germany. FINAL: Lothar Matthäus",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

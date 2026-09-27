@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "extension",
+  "question": "Which country's president was captured by U.S. military in January 2026",
+  "answer": "Venezuela",
+  "evidence": "January 3: The U.S. military captures Venezuelan Pres. Nicolás Maduro and his wife, Cilia Flores, during a large-scale attack on the South American country.",
+  "page": "Major Events of 2026",
+  "url": "https://www.britannica.com/topic/Major-Events-of-2026"
+ },
+ "answer": "I cannot provide information on events beyond my last update in October 2023. Therefore, I cannot confirm which country's president was captured by U.S. military in January 2026. FINAL: No information available.",
+ "correct": false,
+ "cost": 3.9300000000019875e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country's president was captured by U.S. military in January 2026"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot provide information on events beyond my last update in October 2023. Therefore, I cannot confirm which country's president was captured by U.S. military in January 2026. FINAL: No information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

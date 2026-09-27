@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The search didn't return specific information about a declaration on February 26, 2026. This date is in the future (from my training data perspective), so I cannot provide accurate information about what Pakistan's government declared on that date. \n\nCould you please provide more context about this event, or verify the date? If this is a recent or ongoing event, I may not have access to current information about it.",
+ "correct": false,
+ "cost": 0.01590899999999995,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about what Pakistan's government declared on February 26, 2026 regarding the Afghanistan-Pakistan war.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_017vna5ttDAcSjzAdfsjid31",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Afghanistan Pakistan war Pakistan government declared February 26 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017vna5ttDAcSjzAdfsjid31",
+   "content": "Error while searching: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Jr6LgRNMZXQ91zvrLfkSj6",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Pakistan February 26 2026 declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Jr6LgRNMZXQ91zvrLfkSj6",
+   "content": "Error while searching: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for information about the Afghanistan-Pakistan war more generally:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01VW9PZB2JGY17DJrM4hSwDn",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Afghanistan–Pakistan war\", \"keywords\": \"February 2026, declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VW9PZB2JGY17DJrM4hSwDn",
+   "content": "НЕ удалось вызвать инструмент page_find: 1 validation error for PageFindArgs\nkeywords\n  Input should be a valid array [type=list_type, input_value='February 2026, declaration', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/list_type"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me correct that:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01QLGqYbMNdf3q3kQikcrkyN",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Afghanistan–Pakistan war\", \"keywords\": [\"February 26\",\"2026\",\"declaration\"]}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01QLGqYbMNdf3q3kQikcrkyN",
+   "content": ""
+  },
+  {
+   "role": "assistant",
+   "content": "The search didn't return specific information about a declaration on February 26, 2026. This date is in the future (from my training data perspective), so I cannot provide accurate information about what Pakistan's government declared on that date. \n\nCould you please provide more context about this event, or verify the date? If this is a recent or ongoing event, I may not have access to current information about it.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

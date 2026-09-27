@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Извините, но у меня нет информации о том, какая страна разорвала дипломатические отношения с Францией в июне 2026 года, так как это событие произошло после моего последнего обновления данных. FINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.0022282499999999317,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_D8K8ntFctUtkVjMddjiOSEZd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France in June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_D8K8ntFctUtkVjMddjiOSEZd",
+   "content": "[Foreign relations of Israel] <p class=\"mw-empty-elt\"> </p> <p class=\"PIA-flag\" style=\"display:none; visibility:hidden;\" title=\"This page is subject to the extended confirmed restriction related to the Arab-Israeli conflict.\"></p> <p class=\"mw-empty-elt\"> </p> <p><b>Foreign relations of Israel</b> refers to diplomatic and trade relations between Israel and other countries around the world. Israel has diplomatic ties with 165 of the other 192 UN member states as of 12 December 2020. Israel is a member of the United Nations (UN) and a number of other international organisations. Israel maintains full diplomatic relations with two of its Arab neighbours, Egypt and Jordan, after signing peace treaties in 1979 and 1994 respectively. In 2020, Israel signed agreements establishing diplomatic relations with three Arab League countries, Bahrain, the United Arab Emirates, and Morocco. As of 2021, Israel had formal diplomatic relations with 168 countries, while 28 UN member states have either never established, or have broken off diplomatic relations with Israel. </p><p>Israel's foreign relations are influenced primarily by Israel's strategic situation in the Middle East, the broader Arab–Israeli conflict and the conflict with Iran particularly over Iran's nuclear program, along with the rejection by regional states. Israel's foreign policy goals have therefore been to overcome diplomatic isolation and to achieve recognition and friendly relations with as many nations as possible, both in the Middle East region and further afield. Israel practices both open and secret diplomacy to further national goals, for example, commercial trade and science and technology cooperation, importing raw materials, engaging in military procurement as well as exporting arms and military assistance, intelligence cooperation with its allies, and prisoner-of-war exchanges and other arrangements for hostage releases. It has also sought to foster increased Jewish immigration to Israel and to protect "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XxVAhMcbV6P0WnwSKUELcMru",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 diplomatic relations France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XxVAhMcbV6P0WnwSKUELcMru",
+   "content": "[Timeline of United States diplomatic relations] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p><p>The following is a timeline of major dates in U.S. diplomatic history, specifically the establishment or severance of official diplomatic relations, the diplomatic recognition of sovereign countries, and the opening or closure of diplomatic posts. </p> <h2 data-mw-anchor=\"18th_century\" data-mw-wikitext=\"\">18th century</h2> <ul><li>February 6, 1778 – France recognizes the United States as an independent state with the signing of the Treaty of Amity and Commerce.</li> <li>August 6, 1778 – The United States establishes diplomatic relations with France.</li> <li>March 23, 1779 – The United States establishes a diplomatic mission in Paris.</li> <li>April 19, 1782 – The Netherlands recognizes the United States. The United States and the Netherlands establish diplomatic relations when U.S. Minister John Adams presents his credentials at The Hague.</li> <li>February 20, 1783 – The Spanish Empire recognizes the United States.</li> <li>April 3, 1783 – Sweden recognizes the United States as an independent state with the signing of the Treaty of Amity and Commerce.</li> <li>September 3, 1783 – The United Kingdom of Great Britain and Ireland formally recognizes the independence of the United States with the signing of the Treaty of Paris of 1783.</li> <li>June 1, 1785 – The United States and the United Kingdom establish diplomatic relations when John Adams presented his credentials as Minister Plenipotentiary to King George III.</li> <li>September 18, 1785 – The Kingdom of Prussia recognizes the United States with the signing of the Treaty of Amity and Commerce.</li> <li>June 23, 1786 – Morocco recognizes the United States.</li> <li>October 25, 1791 – The Republic of Genoa recognizes the United States.</li> <li>May 13, 1791 – Portugal recognizes the United States. The United States establishes diplomatic relations with Portugal.</li> <li>June 9, 1972 – Denmark recognize"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_54XrITY2PiCunmI34r68S1OH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country severed diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_54XrITY2PiCunmI34r68S1OH",
+   "content": "[International recognition of Israel] <p class=\"mw-empty-elt\"> </p> <p class=\"PIA-flag\" style=\"display:none; visibility:hidden;\" title=\"This page is subject to the extended confirmed restriction related to the Arab-Israeli conflict.\"></p> <p class=\"mw-empty-elt\"> </p> <p>As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>On 14 May 1948, the Israeli Declaration of Independence declared the establishment a Jewish state in part of the former British Mandate of Palestine, with borders formally established by the Green Line of the 1949 Armistice Agreements at the end of the 1948 Palestine war. The Arab League was opposed to any partition and to the establishment of Israel, and an Arab coalition jointly invaded the territory of the newly formed country one day after its independence, sparking the 1948 Arab–Israeli War. </p><p>Following Israel's establishment, the Israeli provisional government was established to govern the Yishuv; and while military operations were still in progress, it was promptly granted <i>de facto</i> recognition by the United States, followed by Iran (which had voted against the Partiti"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qWEac42BIWV8apdtDF6R8cUu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 Israel France diplomatic relations\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qWEac42BIWV8apdtDF6R8cUu",
+   "content": "[2026 in Israel] <p class=\"mw-empty-elt\"> </p> <p class=\"PIA-flag\" style=\"display:none; visibility:hidden;\" title=\"This page is subject to the extended confirmed restriction related to the Arab-Israeli conflict.\"></p> <p> Events of the year <b>2026 in Israel</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <ul><li>President of Israel – Isaac Herzog</li> <li>Prime Minister of Israel – Benjamin Netanyahu</li> <li>President of the Supreme Court – Yitzhak Amit</li></ul> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>1 January — Israel orders the banning effective 1 March of 37 humanitarian agencies from operating in the Gaza Strip for failing to comply with its revised regulations on the disclosure of detailed information on their Palestinian staff.</li> <li>4 January — A Bedouin man is killed in an overnight police raid in Tirabin al-Sana.</li> <li>5 January – <ul><li>The Ministry of Communications approves the delivery of equipment necessary to upgrade Palestinian cellular networks from 3G to 4G in the West Bank.</li> <li>United States-mediated talks between Israel and Syria are held to revive the 1974 disengagement framework resume after a several-month hiatus, with Syria pressing for an Israeli withdrawal from territory entered after the fall of the Assad regime.</li> <li>Three Arab Israelis are killed in two separate shootings in Nazareth and Kafr Qara.</li></ul></li> <li>6 January – <ul><li>Foreign minister Gideon Sa'ar visits Somaliland for the first time since Israel recognized its independence the month prior.</li> <li>A bus strikes a group protesting against Haredi conscription into the IDF in Jerusalem, killing one and injuring three others.</li></ul></li> <li>13 January – Israel withdraws from seven United Nations-affiliated agencies over their perceived anti-Israel bias or ineffectiveness.</li> <li>14 January – The United States announces the star"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1NOTSOi1GYV9uWIwGL7HOoiu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country cut diplomatic ties with France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1NOTSOi1GYV9uWIwGL7HOoiu",
+   "content": "[Qatar diplomatic crisis] <p class=\"mw-empty-elt\"> </p> <p>The <b>Qatar diplomatic crisis</b> was a deterioration of relations between Qatar and four Arab states between 2017 and 2021. It began when Saudi Arabia, the United Arab Emirates, Bahrain, and Egypt simultaneously severed their bilateral relations with Qatar and subsequently banned Qatar-registered aircraft and Qatari ships from utilizing their sovereign territory on air, land, and sea. This involved Saudi Arabia's closure of Qatar's only land crossing, initiating a <i>de facto</i> blockade of the country. The crisis was brought to an end in January 2021, following an agreement between the Saudis and the Qataris. </p><p>The Saudi-led coalition cited Qatar's alleged support for terrorism as the main reason for their actions, alleging that Qatar had violated a 2014 agreement with the members of the Gulf Cooperation Council (GCC), of which Qatar is a member. Saudi Arabia and other countries have criticized Al Jazeera and Qatar's relations with Iran. Qatar explained that it had provided assistance to some opposition groups, including Islamist groups (such as the Muslim Brotherhood), but consistently denied aiding militant groups linked to al-Qaeda or the Islamic State of Iraq and the Levant (ISIL). Qatar also emphasized that it had long assisted the United States in the war on terror, especially via the Qatar-based Al Udeid US military base, and through the ongoing military intervention against ISIL. </p><p>One day into the crisis, the Saudi-led coalition was joined by Jordan, and was further supported thereafter by the Maldives, Mauritania, Senegal, Djibouti, the Comoros, and the Tobruk-based government in Libya, all of which severed relations with Qatar. The demands against Qatar included reducing diplomatic relations with Iran, stopping military coordination with Turkey, and closing Al Jazeera; Qatar refused to agree to any of the Saudi-led coalition's demands. Initial supply disruptions were minimised by add"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_boE0euSL6spqw1K5VJpHNTcA",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"which country broke off relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_boE0euSL6spqw1K5VJpHNTcA",
+   "content": "[2026 Iran war] <p class=\"PIA-flag\" style=\"display:none; visibility:hidden;\" title=\"This page is subject to the extended confirmed restriction related to the Arab-Israeli conflict.\"></p> <p class=\"mw-empty-elt\"> </p> <p>Since 28 February 2026, the United States and Israel have been at war with Iran and its regional allies. The war follows the Twelve-Day War in June 2025 and sporadic fighting during the Middle Eastern crisis sparked by the Gaza war (2023–present). Amid ongoing US–Iran negotiations regarding Iran's nuclear program, the war began when the US and Israel assassinated Iranian Supreme Leader Ali Khamenei in airstrikes alongside several other Iranian officials. </p><p>American rationale for initiating the war included regime change, preventing Iran from obtaining a nuclear weapon, a response to the massacre of anti-government protesters in Iran, and taking Iran's oil and gas resources. Critics have rejected these justifications, maintaining that the attack initiated a war of aggression, in violation of international law. Later war goals focused on nuclear negotiations and reopening the Strait of Hormuz. Public opinion was opposed to the war in the United States and in many other countries, leading to widespread disapproval for Donald Trump and declining views of the US and Israel around the world. </p><p>The war was preceded in January–February 2026 by the largest US military buildup in the region since the 2003 invasion of Iraq. Following a decentralized strategy, Iranian units responded with a series of missile and drone attacks against Israel and US military bases in the Middle East, causing extensive damage, as well as attacked US allies in the Middle East, and blocked the Strait of Hormuz and subsequently claimed sovereignty over it in late March. Following the strikes on their territory, the United Arab Emirates, Saudi Arabia, Kuwait, and Bahrain also attacked Iran and skirmished with its Iraqi non-state allies. Two days after Khamenei's assassination"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zLZvNLEIZTklDosaE0FSqZV2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 France diplomatic relations news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zLZvNLEIZTklDosaE0FSqZV2",
+   "content": "[2026 Poland–Ukraine diplomatic crisis] <p class=\"mw-empty-elt\"> </p> <p>The <b>2026 Poland–Ukraine diplomatic crisis</b> began in May 2026 after Ukrainian president Volodymyr Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\", on that unit's request. This decision sparked outrage in Poland as the UPA was responsible for the massacres of Poles in Volhynia and Eastern Galicia, leading to a major crisis in bilateral relations. </p><p>On 19 June 2026, Polish President Karol Nawrocki stripped the Order of the White Eagle from Ukrainian president Volodymyr Zelenskyy. Zelenskyy promptly returned the Order of the White Eagle to the Polish Presidential Chancellery. In solidarity with Zelenskyy, three former Ukrainian presidents Leonid Kuchma, Viktor Yushchenko, and Petro Poroshenko voluntarily renounced and returned their Orders of the White Eagle to Poland. In response, on 25 June 2026, several Polish politicians renounced their Ukrainian orders, notably Jarosław Kaczyński with his Order of Yaroslav the Wise which was the third-highest Ukrainian order when he received it in 2022. </p> <h2 data-mw-anchor=\"Crisis\" data-mw-wikitext=\"\">Crisis</h2> <h3 data-mw-anchor='\"Heroes_of_the_UPA\"_unit_naming_controversy' data-mw-fallback-anchor=\".22Heroes_of_the_UPA.22_unit_naming_controversy\" data-mw-wikitext=\"\">\"Heroes of the UPA\" unit naming controversy</h3> <p>On 26 May 2026, Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\" stating that it was done in order \"to restore the historical traditions of the national army.\" </p><p>The move was met with negative reactions within Poland, because the UPA committed massacres in Volhynia, Eastern Galicia, the Lublin region, and the Subcarpathian region, killing over 100,000 Poles, Jews, or members of other minorities. Earlier that month, Zelenskyy had also faced similar reactions regarding the reburial with state honours of the remains of U"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Извините, но у меня нет информации о том, какая страна разорвала дипломатические отношения с Францией в июне 2026 года, так как это событие произошло после моего последнего обновления данных. FINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

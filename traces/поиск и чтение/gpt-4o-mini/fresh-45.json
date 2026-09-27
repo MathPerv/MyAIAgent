@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "К сожалению, у меня нет информации о типе самолета, который разбился в провинции Ялова, Турция, 13 августа 2026 года. В данный момент информация недоступна. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.0025643999999999667,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_abI19dIZCrM8f96PY5Pj5Spt",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"aircraft crash Yalova Province Turkey August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_abI19dIZCrM8f96PY5Pj5Spt",
+   "content": "[2026 in Turkey] <p class=\"mw-empty-elt\"> </p> <p>Individuals and events related to <b>2026</b> in <b>Turkey</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"Ongoing\" data-mw-wikitext=\"\">Ongoing</h3> <ul><li>Purges in Turkey (2016–present)</li> <li>Turkish protests (2025–present)</li></ul> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>13 January – A judge is shot and injured by her former partner, a public prosecutor, inside a courthouse in Kartal, Istanbul. The gunman is arrested.</li> <li>21 January – Zeynep Sönmez becomes the first Turkish tennis player to reach the third round in singles at the Australian Open tennis tournament.</li> <li>22 January – Authorities announce the discovery in Istanbul of the body of a Russian swimmer who disappeared while competing in the 2025 Bosphorus Cross Continental Swim in August.</li> <li>27 January – Authorities announce the arrest of six people across five provinces on suspicion of spying for Iran.</li> <li>29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.</li></ul> <h3 data-mw-anchor=\"February\" data-mw-wikitext=\"\">February</h3> <ul><li>1 February – A bus falls off a highway embankment in Döşemealtı, Antalya Province, killing nine people and injuring 21 others.</li> <li>10 February – The Beşiktaş district government in Istanbul bans scheduled concerts by rock bands Slaughter to Prevail and Behemoth following accusations of satanism by Islamist groups.</li> <li>11 February – A brawl breaks out in the Grand National Assembly over the appointment of Akın Gürlek as justice minister.</li> <li>19"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Jo5OqxzSxGdNR47y3JewUhRn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Jo5OqxzSxGdNR47y3JewUhRn",
+   "content": "[2026 in Turkey] <p class=\"mw-empty-elt\"> </p> <p>Individuals and events related to <b>2026</b> in <b>Turkey</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"Ongoing\" data-mw-wikitext=\"\">Ongoing</h3> <ul><li>Purges in Turkey (2016–present)</li> <li>Turkish protests (2025–present)</li></ul> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>13 January – A judge is shot and injured by her former partner, a public prosecutor, inside a courthouse in Kartal, Istanbul. The gunman is arrested.</li> <li>21 January – Zeynep Sönmez becomes the first Turkish tennis player to reach the third round in singles at the Australian Open tennis tournament.</li> <li>22 January – Authorities announce the discovery in Istanbul of the body of a Russian swimmer who disappeared while competing in the 2025 Bosphorus Cross Continental Swim in August.</li> <li>27 January – Authorities announce the arrest of six people across five provinces on suspicion of spying for Iran.</li> <li>29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.</li></ul> <h3 data-mw-anchor=\"February\" data-mw-wikitext=\"\">February</h3> <ul><li>1 February – A bus falls off a highway embankment in Döşemealtı, Antalya Province, killing nine people and injuring 21 others.</li> <li>10 February – The Beşiktaş district government in Istanbul bans scheduled concerts by rock bands Slaughter to Prevail and Behemoth following accusations of satanism by Islamist groups.</li> <li>11 February – A brawl breaks out in the Grand National Assembly over the appointment of Akın Gürlek as justice minister.</li> <li>19"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OMyu3CRUV53YXelypSAURq84",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey August 13 2026 plane crash details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OMyu3CRUV53YXelypSAURq84",
+   "content": "[List of accidents and incidents involving military aircraft (2020–present)] <p class=\"mw-empty-elt\"> </p><p>This is a <b>list of accidents and incidents involving military aircraft</b> grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances. </p> <h2 data-mw-anchor=\"2020\" data-mw-wikitext=\"\">2020</h2> <h3 data-mw-anchor=\"January_2020\" data-mw-wikitext=\"\">January 2020</h3> <dl><dt>2 January</dt> <dd>A Sudanese Air Force Antonov An-12A crashes shortly after take-off from Geneina Airport, Khartoum. All eighteen people on board are killed.</dd></dl> <dl><dt>2 January</dt></dl> <dl><dd>Republic of China Air Force Sikorsky UH-60M Black Hawk <i>933</i> strikes a mountainside in Wulai District of northern Taiwan during a VIP transport mission, killing eight of 13 on board, including Shen Yi-ming, Chief of General Staff. The helicopter was on a routine mission to visit personnel at Dong'aoling Radar Station.</dd></dl> <dl><dt>3 January</dt></dl> <dl><dd>Sri Lanka Air Force Harbin Yunshuji Y-12 II <i>SCL-857</i> crashes near Haputale, Sri Lanka. All four people on board are killed.</dd></dl> <dl><dt>8 January</dt> <dd>An Afghan National Army Mil Mi-35 crashes in Farah Province, Afghanistan, killing two pilots.</dd></dl> <dl><dt>8 January</dt> <dd>A Mil Mi-17 helicopter of the Afghan National Army crashes on take-off in Paktia Province, Afghanistan.</dd></dl> <dl><dt>9 January</dt> <dd>Lockheed C-130BZ Hercules <i>403</i> of the South African Air Force crashed on landing at Goma Airport, Democratic Republic of the Congo and was severely damaged. All 67 people on board survived.</dd></dl> <dl><dt>9 January</dt> <dd>Eight General Dynamics F-16 Fighting Falcons of the Israeli Air Force were damaged by flooding at Hatzor Airbase, Israel. Three aircraft were severely damaged, five were slightly damaged.</dd></dl> <dl><dt>14 January<"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_GvIICUw75PByYHuLhW2sr1Dh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey August 13 2026 plane crash news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GvIICUw75PByYHuLhW2sr1Dh",
+   "content": "[List of accidents and incidents involving military aircraft (2020–present)] <p class=\"mw-empty-elt\"> </p><p>This is a <b>list of accidents and incidents involving military aircraft</b> grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances. </p> <h2 data-mw-anchor=\"2020\" data-mw-wikitext=\"\">2020</h2> <h3 data-mw-anchor=\"January_2020\" data-mw-wikitext=\"\">January 2020</h3> <dl><dt>2 January</dt> <dd>A Sudanese Air Force Antonov An-12A crashes shortly after take-off from Geneina Airport, Khartoum. All eighteen people on board are killed.</dd></dl> <dl><dt>2 January</dt></dl> <dl><dd>Republic of China Air Force Sikorsky UH-60M Black Hawk <i>933</i> strikes a mountainside in Wulai District of northern Taiwan during a VIP transport mission, killing eight of 13 on board, including Shen Yi-ming, Chief of General Staff. The helicopter was on a routine mission to visit personnel at Dong'aoling Radar Station.</dd></dl> <dl><dt>3 January</dt></dl> <dl><dd>Sri Lanka Air Force Harbin Yunshuji Y-12 II <i>SCL-857</i> crashes near Haputale, Sri Lanka. All four people on board are killed.</dd></dl> <dl><dt>8 January</dt> <dd>An Afghan National Army Mil Mi-35 crashes in Farah Province, Afghanistan, killing two pilots.</dd></dl> <dl><dt>8 January</dt> <dd>A Mil Mi-17 helicopter of the Afghan National Army crashes on take-off in Paktia Province, Afghanistan.</dd></dl> <dl><dt>9 January</dt> <dd>Lockheed C-130BZ Hercules <i>403</i> of the South African Air Force crashed on landing at Goma Airport, Democratic Republic of the Congo and was severely damaged. All 67 people on board survived.</dd></dl> <dl><dt>9 January</dt> <dd>Eight General Dynamics F-16 Fighting Falcons of the Israeli Air Force were damaged by flooding at Hatzor Airbase, Israel. Three aircraft were severely damaged, five were slightly damaged.</dd></dl> <dl><dt>14 January<"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_81lsKMM8Zm7INXhFftO6y91h",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey August 2026 aircraft incident\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_81lsKMM8Zm7INXhFftO6y91h",
+   "content": "[2026 in Turkey] <p class=\"mw-empty-elt\"> </p> <p>Individuals and events related to <b>2026</b> in <b>Turkey</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"Ongoing\" data-mw-wikitext=\"\">Ongoing</h3> <ul><li>Purges in Turkey (2016–present)</li> <li>Turkish protests (2025–present)</li></ul> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>13 January – A judge is shot and injured by her former partner, a public prosecutor, inside a courthouse in Kartal, Istanbul. The gunman is arrested.</li> <li>21 January – Zeynep Sönmez becomes the first Turkish tennis player to reach the third round in singles at the Australian Open tennis tournament.</li> <li>22 January – Authorities announce the discovery in Istanbul of the body of a Russian swimmer who disappeared while competing in the 2025 Bosphorus Cross Continental Swim in August.</li> <li>27 January – Authorities announce the arrest of six people across five provinces on suspicion of spying for Iran.</li> <li>29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.</li></ul> <h3 data-mw-anchor=\"February\" data-mw-wikitext=\"\">February</h3> <ul><li>1 February – A bus falls off a highway embankment in Döşemealtı, Antalya Province, killing nine people and injuring 21 others.</li> <li>10 February – The Beşiktaş district government in Istanbul bans scheduled concerts by rock bands Slaughter to Prevail and Behemoth following accusations of satanism by Islamist groups.</li> <li>11 February – A brawl breaks out in the Grand National Assembly over the appointment of Akın Gürlek as justice minister.</li> <li>19"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4w45INatXf9LJmiPyHYsj7LO",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey August 13 2026 aircraft type\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4w45INatXf9LJmiPyHYsj7LO",
+   "content": "[1999 İzmit earthquake] <p class=\"mw-empty-elt\"> </p> <p>An earthquake of moment magnitude 7.6 struck Kocaeli Province, Turkey, on 17 August 1999. According to official figures, at least 18,373 people died and 48,901 people were injured during the earthquake, and 5,840 people were missing. At least 155 deaths were associated with the tsunami. The damage was estimated at between $12 billion and $20 billion (in 1999 U.S. dollars) according to various sources such as the World Bank. The earthquake was named for the epicenter's proximity to the northwestern city of İzmit. It occurred at 03:01 local time (00:01 UTC) at a shallow depth of 15 km (9.3 mi). A maximum Mercalli intensity of X (<i>Extreme</i>) was observed. The earthquake lasted for 37 seconds, causing seismic damage, and is widely remembered as one of the deadliest natural disasters in modern Turkish history. </p><p>The 1999 earthquake was part of a seismic sequence along the North Anatolian Fault that started in 1939, causing large earthquakes that moved progressively from east to west over a period of 60 years. The earthquake encouraged the establishment of a so-called earthquake tax aimed at providing assistance to those affected by the earthquake, and the creation of National Disaster Insurance Institution for providing compulsory earthquake insurance. </p> <h2 data-mw-anchor=\"Tectonic_setting\" data-mw-wikitext=\"\">Tectonic setting</h2> <p>The North Anatolian Fault Zone (NAFZ), where the earthquake occurred, is a 1,200 km (750 mi) right-lateral strike-slip fault zone. It extends from the Gulf of Saros to Karlıova. It formed around 13–11 million years ago in the eastern part of Anatolia and developed westwards. The fault eventually developed at the Marmara Sea around 200,000 years ago despite the shear-related movement in a rather broad zone which had already started in late Miocene. </p><p>The fault zone is seismically active and has a diverse geomorphological structure. It produced a series of earthquakes "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IWZFZcq6MmvavGk4snpiTybU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Turkey August 13 2026 plane crash news details reported\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IWZFZcq6MmvavGk4snpiTybU",
+   "content": "[List of deadliest aircraft accidents and incidents] <p class=\"mw-empty-elt\"> </p> <p>This article lists the deadliest aircraft accidents and incidents involving commercial passenger and cargo flights, military passenger and cargo flights, or general aviation flights that have been involved in a ground or mid-air collision. </p><p>As of 26 September 2026, 208 accidents and incidents have resulted in at least 100 fatalities, 35 at least 200 fatalities, 8 at least 300 fatalities, and 4 at least 500 fatalities. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>On 17 September 1908, exactly four years and nine months after the pioneering flight of the Wright brothers on 17 December 1903, Thomas Selfridge became the first fatality of powered flight while flying as a passenger with Orville Wright during a demonstration of the Wright Model A at Fort Myer, Virginia. On 7 September 1909, Eugène Lefebvre was the first to be killed while piloting a powered airplane, while the first fatal mid-air collision occurred on 19 June 1912, near Douai, France, killing the pilot of each aircraft. Since the deaths of these early aviation pioneers, the scale of fatal aircraft accidents has increased in proportion to the size and capacity of airplanes. </p><p>The greatest number of passenger fatalities involving one airline in a single calendar year occurred in 2014 with Malaysia Airlines, with 537 people dead (presumably - with the wreckage unrecovered, the death toll is not entirely confirmed) in two tragedies: the disappearance of Flight 370 on 8 March and the shootdown of Flight 17 on 17 July. When including ground fatalities, American Airlines holds this distinction, with the 2001 crashes of Flight 11 and Flight 77 on 11 September, and Flight 587 on 12 November, having a combined total of approximately 2,000 deaths, including 416 people on the three aircraft. The deliberate crashes of the aforementioned American Airlines Flight 11, as well as United Airlines Flight "
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, у меня нет информации о типе самолета, который разбился в провинции Ялова, Турция, 13 августа 2026 года. В данный момент информация недоступна. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

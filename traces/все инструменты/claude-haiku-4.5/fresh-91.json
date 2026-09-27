@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Great! I found the information. According to the search results from Mint (dated July 5, 2026), Rural development minister Shivraj Singh Chouhan announced that the Centre released **₹25,863 crore** for the VB-G RAM-G (Viksit Bharat Guarantee for Rozgar & Ajeevika Mahaabhiyaan - Gram Rozgar Abhiyaan) scheme in July 2026.\n\nFINAL: ₹25,863 crore",
+ "correct": true,
+ "cost": 0.00691799999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the VB-G RAM-G scheme and the amount released by Shivraj Singh Chouhan in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012Ep6tzQvACmqtvjVynC8zw",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Shivraj Singh Chouhan VB-G RAM-G scheme July 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01WShExDYAr7HJi9syFd1s8C",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"VB-G RAM-G scheme amount released 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012Ep6tzQvACmqtvjVynC8zw",
+   "content": "Centre releases ₹25,863 crore as new rural jobs scheme VB-G ...:\n        href: https://www.livemint.com/news/vbgramg-rural-employment-mgnrega-shivraj-singh-chouhan-rural-development-wage-guarantee-gram-panchayat-11783246854711.html\n        content: \n        Jul 5, 2026 · Rural development minister Shivraj Singh Chouhan said the government had resolved to implement VB-G-RAM-G across the country without disruption from 1 July 2026. \n        "
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WShExDYAr7HJi9syFd1s8C",
+   "content": "VB-G RAM G | Viksit Bharat Guarantee for Rozgar & Ajeevika ...:\n        href: https://vbgramg.dord.gov.in/vbgramg/home.aspx\n        content: \n        1 day ago · VB-G RAM G enhances the statutory wage employment guarantee from 100 to 125 days and introduces a convergence-driven rural development framework focused on productive asset creation, resilience, saturation and technology-enabled governance. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Great! I found the information. According to the search results from Mint (dated July 5, 2026), Rural development minister Shivraj Singh Chouhan announced that the Centre released **₹25,863 crore** for the VB-G RAM-G (Viksit Bharat Guarantee for Rozgar & Ajeevika Mahaabhiyaan - Gram Rozgar Abhiyaan) scheme in July 2026.\n\nFINAL: ₹25,863 crore",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

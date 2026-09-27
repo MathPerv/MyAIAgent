@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-126",
+  "source": "extension",
+  "question": "What is the name of the film about Michael Jackson’s early career which was released in the USA in April 2026?",
+  "answer": "Michael",
+  "evidence": "April 24: Michael, a film about pop star Michael Jackson’s early career, is released in the United States, and it becomes the second highest-grossing music biopic in the world, grossing more than $600 million globally.",
+  "page": "Major Events of 2026",
+  "url": "https://www.britannica.com/topic/Major-Events-of-2026"
+ },
+ "answer": "The name of the film about Michael Jackson’s early career, released in the USA in April 2026, is \"Michael.\" \n\nFINAL: Michael",
+ "correct": true,
+ "cost": 0.0001623000000000041,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the film about Michael Jackson’s early career which was released in the USA in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pEzghLow9YJn4da0vqs0xUgK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Michael Jackson early career film April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pEzghLow9YJn4da0vqs0xUgK",
+   "content": "[Michael (2026 film)] <p class=\"mw-empty-elt\"> </p> <p><i><b>Michael</b></i> is a 2026 biographical film directed by Antoine Fuqua and written by John Logan. It follows the early life of the American singer Michael Jackson, from his time with the Jackson 5 in the 1960s to the Bad World Tour in the late 1980s. Jackson is portrayed by his nephew Jaafar Jackson and as a child by Juliano Valdi, both in their film debuts. The supporting cast includes Nia Long, KeiLyn Durrel Jones, Laura Harrier, Jessica Sula, Mike Myers, Miles Teller, and Colman Domingo. </p><p>Development began in November 2019, when it was reported that Graham King had secured the rights to produce a film about Jackson, with Logan attached to write. Lionsgate announced the film in February 2022. In January 2023, Fuqua was announced as the director, and Jaafar was cast as Michael. Further casting took place from January to April 2024. </p><p>After delays caused by the 2023 SAG-AFTRA strike, principal photography took place between January and May 2024. After a clause was discovered in a legal settlement, references to the 1993 child sexual abuse allegations against Michael were removed, the third act was revised, and reshoots took place in June 2025, bringing the production budget to $155–200 million. </p><p><i>Michael</i> premiered at the Uber Eats Music Hall in Berlin on April 10, 2026, and was released on April 22 in the UK by Universal Pictures and on April 24 in the US by Lionsgate. It received generally negative reviews from critics, who praised Jaafar's performance but criticized the story as \"sanitized\". It grossed $1.029 billion worldwide, making it the highest-grossing biographical film, the first biographical film to reach $1 billion, the highest-grossing Lionsgate film and the fourth-highest-grossing film of 2026. A sequel is in development. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>In 1966, the steel worker Joseph Jackson assembles his sons Jackie, Tito, Jermaine, Marl"
+  },
+  {
+   "role": "assistant",
+   "content": "The name of the film about Michael Jackson’s early career, released in the USA in April 2026, is \"Michael.\" \n\nFINAL: Michael",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

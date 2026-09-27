@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "К сожалению, я не имею информации о приговоре Асии Андраби, вынесенном 24 марта 2026 года. \n\nFINAL: Информация отсутствует.",
+ "correct": false,
+ "cost": 0.0025792499999999774,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QlmBUak7eznWCt7fuK9Yc1lm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentence March 24 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QlmBUak7eznWCt7fuK9Yc1lm",
+   "content": "[Asiya Andrabi] <p class=\"mw-empty-elt\"> </p> <p><b>Asiya Andrabi</b> is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. </p><p>Until her arrest, she was one of the most important women separatists in the valley. She is married to Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. </p><p>Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. </p><p>On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. </p><p>On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). </p> <h2 data-mw-anchor=\"Personal_life_and_education\" data-mw-wikitext=\"\">Personal life and education</h2> <p>Asiya did her BSc in Biochemistry. She did her post graduation in Arabic from Kashmir University. She married Ashiq Hussain Faktoo in 1990. As of 2015, Asiya's husband Faktoo has been in jail for 23 years. </p><p>Her younger son, 15-year-old Ahmed bin Qasim, was in class IX in Srinagar while her older son, 22-year-old Muhammad bin Qasim, was living with Andrabi's elder sister in Malaysia in 2015. He was the captain of his university cricket team in 2015. Most of Asiya’s relatives have shifted to Pakistan, Saudi Arabia, England and Malaysia. One of her nephews, Zulqarnain is a captain in the Pakistan Army and a second"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xgJWALdAz7yAb0Nsko2EHoii",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi latest news March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xgJWALdAz7yAb0Nsko2EHoii",
+   "content": "[2016–2017 Kashmir unrest] <p class=\"mw-empty-elt\"> </p> <p>The <b>2016 Kashmir Riots</b>, also known as the <b>Burhan aftermath</b>, refers to protests in Indian Administered Kashmir, chiefly in the Kashmir Valley. It started after the killing of militant leader Burhan Wani by Indian security forces on 8 July 2016. Wani was a commander of the Kashmir-based Islamist militant organisation Hizbul Mujahideen. </p><p>Curfew was imposed in all 10 districts of the valley on 15 July and mobile services were suspended. Protests started in all 10 districts of the Kashmir Valley. Protesters defied curfew with attacks on security forces and public properties. Kashmir valley then remained under 53 consecutive days of curfew. The curfew was lifted on 31 August, but was reimposed in some areas the next day. </p><p>Jammu and Kashmir police and Indian paramilitary forces used pellet guns, tear gas shells, rubber bullets, as well as assault rifles. More than 90 civilians were killed and over 15,000 civilians were injured, including many who were blinded by pellet guns. Two security personnel died and over 4,000 were injured. </p><p>Columnists including Prem Shankar Jha termed the unrest as Kashmir's <i>Intifada</i>. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>In the 2014 Indian general election, the Bharatiya Janata Party (BJP) won a majority in the Lower House of the Indian Parliament. Narendra Modi became the prime minister. In the accompanying state Legislative Assembly elections the Peoples Democratic Party (PDP) won a majority of the seats in Kashmir and the BJP won the majority in Jammu. Even though the parties campaigned against each other, they formed a coalition government, with Mufti Mohammad Sayeed as chief minister. Following Sayeed's death in 2016, his daughter Mehbooba Mufti took over as chief minister, becoming the first female chief minister of the state. </p><p>In late 2015 and early 2016, observers of Kashmir reported growth in Islam"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PgL0SY5izZOKBFXYtIwkvhoc",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentencing news March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PgL0SY5izZOKBFXYtIwkvhoc",
+   "content": "[2026 in India] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>The following is a list of events for the year <b>2026 in India</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h3 data-mw-anchor=\"National_office_bearers\" data-mw-wikitext=\"\">National office bearers</h3> <h3 data-mw-anchor=\"State_governments\" data-mw-wikitext=\"\">State governments</h3> <h3 data-mw-anchor=\"Union_territory_governments\" data-mw-wikitext=\"\">Union territory governments</h3> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh.</li> <li>5 January – A magnitude 5.1 earthquake hits Assam, injuring three people.</li> <li>9 January – <ul><li>Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh.</li> <li>At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January.</li></ul></li> <li>19 January – <ul><li>Nitin Nabin is elected as the National President of the Bharatiya Janata Party.</li> <li>At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand.</li></ul></li> <li>20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam.</li> <li>21 January – <ul><li>An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat.</li> <li>A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported.</li></ul></li> <li>22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.</li> <li>24 January – A fire at a four-story building in H"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7MnXRnubzsh6EPf2lZ8u19fd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi March 2026 sentence news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7MnXRnubzsh6EPf2lZ8u19fd",
+   "content": "[2026 in India] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>The following is a list of events for the year <b>2026 in India</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h3 data-mw-anchor=\"National_office_bearers\" data-mw-wikitext=\"\">National office bearers</h3> <h3 data-mw-anchor=\"State_governments\" data-mw-wikitext=\"\">State governments</h3> <h3 data-mw-anchor=\"Union_territory_governments\" data-mw-wikitext=\"\">Union territory governments</h3> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh.</li> <li>5 January – A magnitude 5.1 earthquake hits Assam, injuring three people.</li> <li>9 January – <ul><li>Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh.</li> <li>At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January.</li></ul></li> <li>19 January – <ul><li>Nitin Nabin is elected as the National President of the Bharatiya Janata Party.</li> <li>At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand.</li></ul></li> <li>20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam.</li> <li>21 January – <ul><li>An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat.</li> <li>A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported.</li></ul></li> <li>22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.</li> <li>24 January – A fire at a four-story building in H"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3hIL65qkW0RZjJBt7BoVSG8q",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentencing March 2026 India\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3hIL65qkW0RZjJBt7BoVSG8q",
+   "content": "[Asiya Andrabi] <p class=\"mw-empty-elt\"> </p> <p><b>Asiya Andrabi</b> is a Kashmiri separatist and founding leader of Dukhtaran-e-Millat. This group is part of the separatist organisation All Parties Hurriyat Conference in the Kashmir Valley. Government of India has declared it as a banned organization. The organisation claims that it aims for the freedom of Kashmir from India. </p><p>Until her arrest, she was one of the most important women separatists in the valley. She is married to Ashiq Hussain Faktoo (a founding member of the Hizbul Mujahideen) in 1990. Her husband has been in jail since 1992, convicted of murder. </p><p>Asiya Andrabi had a major role in starting and backing-up various protests in the Kashmir Valley. She is best known for supporting Masarat Alam in the 2010 Kashmir unrest across Kashmir by using her village network of Dukhtaran-e-Millat operatives for rally support. She hoisted the Pakistan flag and sang the Pakistani national anthem in Kashmir on 25 March 2015. Later on, she was booked for that. </p><p>On 12 September 2015, she slaughtered a cow and released a video in a bid to defy the ban on sale of beef in Jammu and Kashmir. </p><p>On 6 July 2018, Asiya was taken into custody by the National Investigation Agency (NIA). </p> <h2 data-mw-anchor=\"Personal_life_and_education\" data-mw-wikitext=\"\">Personal life and education</h2> <p>Asiya did her BSc in Biochemistry. She did her post graduation in Arabic from Kashmir University. She married Ashiq Hussain Faktoo in 1990. As of 2015, Asiya's husband Faktoo has been in jail for 23 years. </p><p>Her younger son, 15-year-old Ahmed bin Qasim, was in class IX in Srinagar while her older son, 22-year-old Muhammad bin Qasim, was living with Andrabi's elder sister in Malaysia in 2015. He was the captain of his university cricket team in 2015. Most of Asiya’s relatives have shifted to Pakistan, Saudi Arabia, England and Malaysia. One of her nephews, Zulqarnain is a captain in the Pakistan Army and a second"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kcrQzxHLSuM7ZPTKGWElhBFj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asiya Andrabi sentence March 2026 news update\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kcrQzxHLSuM7ZPTKGWElhBFj",
+   "content": "[2026 in India] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>The following is a list of events for the year <b>2026 in India</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h3 data-mw-anchor=\"National_office_bearers\" data-mw-wikitext=\"\">National office bearers</h3> <h3 data-mw-anchor=\"State_governments\" data-mw-wikitext=\"\">State governments</h3> <h3 data-mw-anchor=\"Union_territory_governments\" data-mw-wikitext=\"\">Union territory governments</h3> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh.</li> <li>5 January – A magnitude 5.1 earthquake hits Assam, injuring three people.</li> <li>9 January – <ul><li>Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh.</li> <li>At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January.</li></ul></li> <li>19 January – <ul><li>Nitin Nabin is elected as the National President of the Bharatiya Janata Party.</li> <li>At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand.</li></ul></li> <li>20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam.</li> <li>21 January – <ul><li>An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat.</li> <li>A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported.</li></ul></li> <li>22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.</li> <li>24 January – A fire at a four-story building in H"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7YgdWzPj2MQz4XdpDC9QXmjy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"current news Asiya Andrabi March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7YgdWzPj2MQz4XdpDC9QXmjy",
+   "content": "[2026 in India] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>The following is a list of events for the year <b>2026 in India</b>. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h3 data-mw-anchor=\"National_office_bearers\" data-mw-wikitext=\"\">National office bearers</h3> <h3 data-mw-anchor=\"State_governments\" data-mw-wikitext=\"\">State governments</h3> <h3 data-mw-anchor=\"Union_territory_governments\" data-mw-wikitext=\"\">Union territory governments</h3> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>2 January – At least 14 people die and several people are hospitalised after drinking contaminated water in Indore, Madhya Pradesh.</li> <li>5 January – A magnitude 5.1 earthquake hits Assam, injuring three people.</li> <li>9 January – <ul><li>Fourteen people are killed and over 30 others are injured when a bus falls into a gorge near Nahan, Himachal Pradesh.</li> <li>At least 20 people are reported killed after being attacked by a single wild elephant roaming the forests of West Singhbhum district, Jharkhand since 1 January.</li></ul></li> <li>19 January – <ul><li>Nitin Nabin is elected as the National President of the Bharatiya Janata Party.</li> <li>At least nine people are killed and 80 others are injured when a bus overturns in Latehar, Jharkhand.</li></ul></li> <li>20 January – At least two people are killed in clashes after a youth's murder in Kokrajhar, Assam.</li> <li>21 January – <ul><li>An outbreak of Nipah virus is reported in West Bengal, with at least two cases recorded in Barasat.</li> <li>A Pipistrel Virus of the Indian Air Force crashes into a pond after an engine failure in Prayagraj, Uttar Pradesh. No injuries are reported.</li></ul></li> <li>22 January – A Casspir of the Indian Army falls into a gorge in Doda, Jammu and Kashmir, killing 10 soldiers and injuring 10 others.</li> <li>24 January – A fire at a four-story building in H"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не имею информации о приговоре Асии Андраби, вынесенном 24 марта 2026 года. \n\nFINAL: Информация отсутствует.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

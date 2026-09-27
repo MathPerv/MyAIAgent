@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-113",
+  "source": "fresh",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "answer": "850",
+  "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results, Statistics Canada announced approximately **850 job cuts** on January 13, 2026. This included members of the executive team, as the agency stated it was \"entering a workforce adjustment period.\"\n\nFINAL: 850",
+ "correct": true,
+ "cost": 0.005886999999999976,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Statistics Canada's job cuts announcement on January 13, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RfZQnHbet8zCfHj9K4WyaW",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Statistics Canada job cuts January 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RfZQnHbet8zCfHj9K4WyaW",
+   "content": "Statistics Canada is slashing hundreds of jobs, including ...:\n        href: https://globalnews.ca/news/11611088/statistics-canada-job-cuts/\n        content: \n        Jan 13, 2026 · About 850 jobs are being cut at Statistics Canada, including members of the executive team, as the federal agency said it’s “entering a workforce adjustment period.” \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, Statistics Canada announced approximately **850 job cuts** on January 13, 2026. This included members of the executive team, as the agency stated it was \"entering a workforce adjustment period.\"\n\nFINAL: 850",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

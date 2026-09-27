@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "extension",
+  "question": "What film broke the record for the highest weekend debut for a music biopic in April 2026?",
+  "answer": "Michael",
+  "evidence": "Michael broke Straight Outta Compton's record ($60.2 million) for the highest weekend debut for a music biopic",
+  "page": "List of 2026 box office number-one films in the United States",
+  "url": "https://en.wikipedia.org/wiki/List_of_2026_box_office_number-one_films_in_the_United_States"
+ },
+ "answer": "Based on the search results, the film that broke the record for the highest weekend debut for a music biopic in April 2026 is **\"Michael\"** - a Michael Jackson biopic that was released on April 24, 2026 in the US.\n\nFINAL: Michael",
+ "correct": true,
+ "cost": 0.00928500000000021,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What film broke the record for the highest weekend debut for a music biopic in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the highest weekend debut for a music biopic in April 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_016zJGmUZKHTyBHosr2Kfypr",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"highest weekend debut music biopic April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_016zJGmUZKHTyBHosr2Kfypr",
+   "content": "Michael Jackson Biopic's Record-Breaking Debut Unseats 2026's ...:\n        href: https://screenrant.com/michael-2026-box-office-opening-weekend-domestic-chart-report/\n        content: \n        Apr 26, 2026 · The controversial Michael Jackson biopic, which tells the story of the King of Pop's life from his time in the Jackson 5 through the Bad tour in the late 1980s and elides his child sexual abuse allegations, debuted in theaters on April 24. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for the film title:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015cD1jtKT7VEv2m6efyi2Qt",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Michael Jackson biopic April 2026 film title record breaking debut\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015cD1jtKT7VEv2m6efyi2Qt",
+   "content": "Michael (2026 film) - Wikipedia:\n        href: https://en.wikipedia.org/wiki/Michael_(2026_film)\n        content: \n        Michael premiered at the Uber Eats Music Hall in Berlin on April 10, 2026, and was released on April 22 in the UK by Universal Pictures and on April 24 in the US by Lionsgate. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, the film that broke the record for the highest weekend debut for a music biopic in April 2026 is **\"Michael\"** - a Michael Jackson biopic that was released on April 24, 2026 in the US.\n\nFINAL: Michael",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

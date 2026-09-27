@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-101",
+  "source": "fresh",
+  "question": "What is the duration of the ceasefire in the 2026 Lebanon war?",
+  "answer": "10-day",
+  "evidence": "April 16 – 2026 Lebanon war: A US-brokered 10-day ceasefire takes effect between Israel and Lebanon, following ambassador-level talks in the White House.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have information on events that have occurred after October 2021. The 2026 Lebanon war, as it appears, has not yet happened or is not covered in my training data. Therefore, I cannot provide details about the duration of any ceasefire that may occur in such a conflict. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 5.2049999999970176e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the duration of the ceasefire in the 2026 Lebanon war?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information on events that have occurred after October 2021. The 2026 Lebanon war, as it appears, has not yet happened or is not covered in my training data. Therefore, I cannot provide details about the duration of any ceasefire that may occur in such a conflict. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

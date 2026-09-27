@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-27",
+  "source": "fresh",
+  "question": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?",
+  "answer": "Markus Hinterhäuser",
+  "evidence": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "Teodor Currentzis",
+  "agent_ok": true
+ },
+ "answer": "Markus Hinterhäuser was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026. \n\nFINAL: Markus Hinterhäuser",
+ "correct": true,
+ "cost": 0.00020684999999998066,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Y0TwAJTZKSVjPuMkIVNdF5lX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Salzburg Festival placed on leave March 26, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Y0TwAJTZKSVjPuMkIVNdF5lX",
+   "content": "[Markus Hinterhäuser] <p><b>Markus Hinterhäuser</b> (born 30 March 1958 (1959 according to other sources) in La Spezia, Italy) is an Austrian pianist who served as artistic director of the Salzburg Festival from 2016 to 2026. He studied music at the Vienna Conservatory under Elisabeth Leonskaja and the Mozarteum University of Salzburg under Oleg Maisenberg. As a chamber musician, he has performed with several notable performers, including the Arditti Quartet and singer Brigitte Fassbaender. As a piano soloist he is particularly known for his performances of the works of the Second Viennese School and 20th century works by composers like John Cage, Luigi Nono, Morton Feldman and Galina Ustvolskaya. </p> <h2 data-mw-anchor=\"Salzburg_Festival\" data-mw-wikitext=\"\">Salzburg Festival</h2> <p>Hinterhäuser became artistic director of the Salzburg Festival on 1 October 2016, and in April 2024 the festival announced that he had been granted a third five-year term, which would have run through 2031. In March 2026, after his relationship with the festival's management had become strained, the festival's supervisory board announced that Hinterhäuser and the festival were parting ways with immediate effect, citing \"irreconcilable differences of opinion;\" he was placed on leave until the expiry of his contract on 30 September 2026. Karin Bergmann was appointed interim artistic director of the festival in April 2026. </p> <h2 data-mw-anchor=\"Sources\" data-mw-wikitext=\"\">Sources</h2> <ul><li>Salzburg Festival, Biography: Markus Hinterhäuser</li></ul> <h2 data-mw-anchor=\"References\" data-mw-wikitext=\"\">References</h2>"
+  },
+  {
+   "role": "assistant",
+   "content": "Markus Hinterhäuser was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026. \n\nFINAL: Markus Hinterhäuser",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

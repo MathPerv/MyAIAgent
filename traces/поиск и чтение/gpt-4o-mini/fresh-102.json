@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "На данный момент информация о конкретных награжденных званием Героя Украины в 2025 году не выявлена. Возможно, в дальнейшем будут опубликованы именованные списки. \n\nFINAL: Информация отсутствует.",
+ "correct": false,
+ "cost": 0.002571750000000095,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_j4xG0uqPSwcmpTC0sQRIa6Ht",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_j4xG0uqPSwcmpTC0sQRIa6Ht",
+   "content": "[Hero of Ukraine] <p class=\"mw-empty-elt\"> </p> <p>A <b>Hero of Ukraine</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>HOU</b>; Ukrainian: <span lang=\"uk\">Герой України</span>, <small>romanized: </small><span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Heroi Ukrainy</i></span>) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. </p><p>The decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). </p><p>The decoration is granted to two classes of recipients: to civilians, the <b>Order of the State</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>OS</b>, Ukrainian: <span lang=\"uk\">Орден Держави</span>, <small>romanized: </small><span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Orden Derzhavy</i></span>); and to military recipients, the <b>Order of the Gold Star</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>OGS</b>, <span title=\"Ukrainian-language text\"><span lang=\"uk\">Орден «Золота Зірка»</span></span>, <span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Orden \"Zolota Zirka\"</i></span>). </p><p>The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>The origin of the \"Hero of Ukraine\" award can be traced to the Hero of the Soviet Union (established 16 April 1934) and the Hero of Socialist Labor (27 December 1938), the highest decorations established in the Soviet Union, of which Ukraine was a constituent republic. Most of the recipients of the former title received it for heroic military action (with Soviet cosmonauts being a notable exception), while those awarded the latter were recognized for their contributions to nat"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZNO0gA7eH13XAeix7SUrYItF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine recipients 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZNO0gA7eH13XAeix7SUrYItF",
+   "content": "[Hero of Ukraine] <p class=\"mw-empty-elt\"> </p> <p>A <b>Hero of Ukraine</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>HOU</b>; Ukrainian: <span lang=\"uk\">Герой України</span>, <small>romanized: </small><span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Heroi Ukrainy</i></span>) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. </p><p>The decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). </p><p>The decoration is granted to two classes of recipients: to civilians, the <b>Order of the State</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>OS</b>, Ukrainian: <span lang=\"uk\">Орден Держави</span>, <small>romanized: </small><span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Orden Derzhavy</i></span>); and to military recipients, the <b>Order of the Gold Star</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>OGS</b>, <span title=\"Ukrainian-language text\"><span lang=\"uk\">Орден «Золота Зірка»</span></span>, <span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Orden \"Zolota Zirka\"</i></span>). </p><p>The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>The origin of the \"Hero of Ukraine\" award can be traced to the Hero of the Soviet Union (established 16 April 1934) and the Hero of Socialist Labor (27 December 1938), the highest decorations established in the Soviet Union, of which Ukraine was a constituent republic. Most of the recipients of the former title received it for heroic military action (with Soviet cosmonauts being a notable exception), while those awarded the latter were recognized for their contributions to nat"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_iSxo4Ctj6ELOQoARJHaUQ4HV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine awardees 2025 list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_iSxo4Ctj6ELOQoARJHaUQ4HV",
+   "content": "[Deaths in 2026] <p class=\"mw-empty-elt\"> </p><p><br/> The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order. A typical entry reports information in the following sequence: </p> <ul><li>Name, age, country of citizenship at birth, subsequent nationality (if applicable), what subject was noted for, cause of death (if known), and a reference.</li></ul> <h2 data-mw-anchor=\"September\" data-mw-wikitext=\"\">September</h2> <h3 data-mw-anchor=\"27\" data-mw-wikitext=\"\">27</h3> <h3 data-mw-anchor=\"26\" data-mw-wikitext=\"\">26</h3> <ul><li>Bruno Musarò, 78, Italian Roman Catholic prelate, apostolic nuncio to Panama (1994–1999), Guatemala (2004–2009) and Costa Rica (2019–2023).</li> <li>Maksim Ovodenko, 96, Russian metallurgist and aeronautical scientist, member of Russian Academy of Engineering.</li> <li>Eduardo Rodríguez Rodway, 81, Spanish musician (Triana).</li> <li>Guruh Sukarnoputra, 73, Indonesian politician and artist, MP (1999–2024).</li> <li>Hirokazu Ueyonabaru, 55, Japanese Paralympic athlete (2008), injuries sustained in a traffic collision.</li> <li>Ahmed El-Zend, 80, Egyptian jurist, minister of justice (2015–2016).</li></ul> <h3 data-mw-anchor=\"25\" data-mw-wikitext=\"\">25</h3> <ul><li>Carmen Aldunate, 86, Chilean painter.</li> <li>Chaudhary Muhammad Ashraf, 90, Pakistani politician, MNA (2013–2023).</li> <li>Georges Taï Benson, 80, Ivorian television presenter.</li> <li>Antonio Canal, 90, Spanish actor.</li> <li>Ram Govind Chaudhary, 73, Indian politician, Uttar Pradesh MLA (1977–1992, 2002–2007, 2012–2022).</li> <li>Javier Delgado Barrio, 93, Spanish judge, president of the Supreme Court and the CGPJ (1996–2001).</li> <li>Bill Giles, 92, American baseball executive (Philadelphia Phillies).</li> <li>Oscar González Oro, 74, Argentine radio host.</li> <li>André Guy, 85, French footballer (Saint-Étienne, Lyon, national team).</li> <li>Aleksei Kozlov, 90, Russian saxophonist.</li> <li>Bruno Kramm, 58, German musici"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zAhbp5A3jLpwX8eMkZ47G8eF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025 recipient list\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zAhbp5A3jLpwX8eMkZ47G8eF",
+   "content": "[List of Heroes of Ukraine] <p class=\"mw-empty-elt\"> </p> <dl><dd><i>The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine.</i></dd></dl> <p>This is a <b>list of individuals who have been presented with the title Hero of Ukraine</b> in reverse chronological order. </p> <p>As of 26 July 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). </p><p>Out of all recipients (considering only published decrees), 1007 (79%) have a distinction of the \"Order of the Gold Star\" and 275 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 661 (52%). By gender, 1237 (96%) of the recipients are men. </p><p>The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday. </p><p>The only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura. </p><p>There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour. </p> <h2 data-mw-anchor=\"2026\" data-mw-wikitext=\"\">2026</h2> <p>As of 28 June 2026: 73. </p> <h2 data-mw-anchor=\"2025\" data-mw-wikitext=\"\">2025</h2> <p>Total number of awards: 212. </p> <h2 data-mw-anchor=\"2024\" data-mw-wikitext=\"\">2024</h2> <p>Total number of awards: 162. </p> <h2 data-mw-anchor=\"2023\" data-mw-wiki"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_L2pnMOkMNMFbzuAU8lZQfXE0",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of Heroes of Ukraine\",\"keywords\":[\"2025\",\"Hero of Ukraine\"]}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_L2pnMOkMNMFbzuAU8lZQfXE0",
+   "content": "this is a list of individuals who have been presented with the title hero of ukraine in reverse chronological order.\nthe only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was belarusian mikhail zhyzneuski in june 2017 (zhyzneuski was awarded posthumously). there are however 17 other individuals who were awarded the hero of ukraine and who were never citizens of ukraine as they died before ukraine obtained its independence. among them are avgustyn voloshyn, stepan bandera (annulled), volodymyr ivasyuk, vasyl stus, liquidators mykola vashchuk, vasyl ihnatenko, oleksandr lelechko, mykola tytenok, volodymyr tishura.\n2025\ntotal number of awards: 11. some of the awards have come into question. see hero of ukraine: controversial awards for more details.\ntotal number of awards: 25. some of the awards have come into question. see hero of ukraine: controversial awards for more details.\ntotal number of awards: 41. some of the awards have come into question. see hero of ukraine: controversial awards for more details.\nukrainian national award – \"hero of ukraine\" at the official website of the president of ukraine. in ukrainian, in russian"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7LaN4XS06Z2CMBi7gzmmFZli",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine recipients 2025 list names\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7LaN4XS06Z2CMBi7gzmmFZli",
+   "content": "[List of Heroes of Ukraine] <p class=\"mw-empty-elt\"> </p> <dl><dd><i>The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine.</i></dd></dl> <p>This is a <b>list of individuals who have been presented with the title Hero of Ukraine</b> in reverse chronological order. </p> <p>As of 26 July 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). </p><p>Out of all recipients (considering only published decrees), 1007 (79%) have a distinction of the \"Order of the Gold Star\" and 275 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 661 (52%). By gender, 1237 (96%) of the recipients are men. </p><p>The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday. </p><p>The only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura. </p><p>There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour. </p> <h2 data-mw-anchor=\"2026\" data-mw-wikitext=\"\">2026</h2> <p>As of 28 June 2026: 73. </p> <h2 data-mw-anchor=\"2025\" data-mw-wikitext=\"\">2025</h2> <p>Total number of awards: 212. </p> <h2 data-mw-anchor=\"2024\" data-mw-wikitext=\"\">2024</h2> <p>Total number of awards: 162. </p> <h2 data-mw-anchor=\"2023\" data-mw-wiki"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ha9fQdpCItR3mx4LPG7fyWMf",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Hero of Ukraine\",\"keywords\":[\"2025\",\"recipient\"]}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ha9fQdpCItR3mx4LPG7fyWMf",
+   "content": "the decoration was created in 1998 by president leonid kuchma. as of july 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public).\nthe decoration is granted to two classes of recipients: to civilians, the order of the state (abbr.  os, ukrainian: орден держави, romanized: orden derzhavy); and to military recipients, the order of the gold star (abbr.  ogs, орден «золота зірка», orden \"zolota zirka\").\nthe origin of the \"hero of ukraine\" award can be traced to the hero of the soviet union (established 16 april 1934) and the hero of socialist labor (27 december 1938), the highest decorations established in the soviet union, of which ukraine was a constituent republic. most of the recipients of the former title received it for heroic military action (with soviet cosmonauts being a notable exception), while those awarded the latter were recognized for their contributions to national economy and culture. the awards could be given to the same individual more than once, and only the presidium of the supreme soviet could deprive a recipient of the award once given. after the dissolution of the soviet union in 1991, similar awards were created in the resulting independent countries, including ukraine.\nthe title hero of ukraine was created on 23 august 1998 with edict #944/98 by president leonid kuchma. similar in structure to the titles issued by the soviet union, the title is awarded in two distinctions: \"the order of the gold star\" and \"the order of the state\". unlike the soviet awards, ukrainian law allows a person to receive a title in each distinction only once, although the person may receive both levels in due course. this means that if a holder of the order of the state performs a heroic action, he or she can be presented with the order of the gold star. vice versa, if labor achievements of a holder of the order of the gold star are re"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент информация о конкретных награжденных званием Героя Украины в 2025 году не выявлена. Возможно, в дальнейшем будут опубликованы именованные списки. \n\nFINAL: Информация отсутствует.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

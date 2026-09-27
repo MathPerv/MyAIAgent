@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "extension",
+  "question": "Which country's president was captured by U.S. military in January 2026",
+  "answer": "Venezuela",
+  "evidence": "January 3: The U.S. military captures Venezuelan Pres. Nicolás Maduro and his wife, Cilia Flores, during a large-scale attack on the South American country.",
+  "page": "Major Events of 2026",
+  "url": "https://www.britannica.com/topic/Major-Events-of-2026"
+ },
+ "answer": "The president captured by U.S. military in January 2026 was Nicolás Maduro of Venezuela. \n\nFINAL: Nicolás Maduro",
+ "correct": false,
+ "cost": 0.00014084999999997017,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country's president was captured by U.S. military in January 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_z4Y4h4jtO4KTU0rk7CYDRClw",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"president captured by U.S. military January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_z4Y4h4jtO4KTU0rk7CYDRClw",
+   "content": "[2026 United States intervention in Venezuela] <p class=\"mw-empty-elt\"> </p> <p>On 3 January 2026, the United States launched a military strike in Venezuela and captured incumbent Venezuelan president Nicolás Maduro and his wife, Cilia Flores. The US operation, codenamed <b>Operation Absolute Resolve</b>, began around 2 a.m. local time, when explosions were observed. The US Armed Forces bombed infrastructure across northern Venezuela to suppress air defenses as an apprehension force attacked Maduro's compound in Caracas. Approximately 80 people, including Venezuelan and Cuban military and civilians, died and seven American soldiers were wounded. Maduro and Flores were transported to New York City by US forces and were indicted on drug trafficking charges to which Maduro and Flores pleaded not guilty. </p><p>US president Donald Trump and his administration justified the operation as a law-enforcement action with military support, saying that the president has \"inherent constitutional authority\" to undertake such an act. Venezuelan vice president Delcy Rodríguez denounced Maduro's \"kidnapping\". Venezuelan officials said at least 23 Venezuelan security officers were killed during the attack. The Cuban government said that 32 members of the Cuban military and intelligence agencies were killed. Officials in the United Nations (UN), the US, and other countries, as well as international law experts said the raid violated the UN Charter and Venezuela's sovereignty. Other reactions around the world included celebrations by the Venezuelan diaspora and protests against the attack. </p><p>The Venezuelan government remained in place, with Rodríguez sworn in as acting president on 5 January 2026. Multiple political prisoners (including foreigners) detained in Venezuela were released, a gesture which, according to Trump, contributed to avoiding a second wave of attacks. On 30 January, Rodríguez announced an amnesty bill for political prisoners covering the period of 1999 to presen"
+  },
+  {
+   "role": "assistant",
+   "content": "The president captured by U.S. military in January 2026 was Nicolás Maduro of Venezuela. \n\nFINAL: Nicolás Maduro",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

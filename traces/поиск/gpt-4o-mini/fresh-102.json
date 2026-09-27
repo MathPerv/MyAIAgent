@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The search did not provide specific information on who was recognized as Hero of Ukraine in 2025. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 0.00016139999999997823,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2ShXc9W98JI1kVbeF6lDSg9O",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2ShXc9W98JI1kVbeF6lDSg9O",
+   "content": "[Hero of Ukraine] <p class=\"mw-empty-elt\"> </p> <p>A <b>Hero of Ukraine</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>HOU</b>; Ukrainian: <span lang=\"uk\">Герой України</span>, <small>romanized: </small><span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Heroi Ukrainy</i></span>) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. </p><p>The decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). </p><p>The decoration is granted to two classes of recipients: to civilians, the <b>Order of the State</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>OS</b>, Ukrainian: <span lang=\"uk\">Орден Держави</span>, <small>romanized: </small><span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Orden Derzhavy</i></span>); and to military recipients, the <b>Order of the Gold Star</b> (<span><abbr title=\"abbreviated\">abbr.</abbr> </span> <b>OGS</b>, <span title=\"Ukrainian-language text\"><span lang=\"uk\">Орден «Золота Зірка»</span></span>, <span title=\"Ukrainian-language romanization\"><i lang=\"uk-Latn\">Orden \"Zolota Zirka\"</i></span>). </p><p>The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>The origin of the \"Hero of Ukraine\" award can be traced to the Hero of the Soviet Union (established 16 April 1934) and the Hero of Socialist Labor (27 December 1938), the highest decorations established in the Soviet Union, of which Ukraine was a constituent republic. Most of the recipients of the former title received it for heroic military action (with Soviet cosmonauts being a notable exception), while those awarded the latter were recognized for their contributions to nat"
+  },
+  {
+   "role": "assistant",
+   "content": "The search did not provide specific information on who was recognized as Hero of Ukraine in 2025. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

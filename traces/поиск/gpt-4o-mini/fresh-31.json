@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The new government of Kazakhstan, known as the Second Bektenov Government, was formed on August 31, 2026, following the legislative election on August 23, 2026. Oljas Bektenov was reappointed as Prime Minister. \n\nFINAL: Oljas Bektenov",
+ "correct": false,
+ "cost": 0.00034004999999998065,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XZkSqQ9HTuT0vsXln1hZnodW",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Kazakhstan government formation after legislative election August 23 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XZkSqQ9HTuT0vsXln1hZnodW",
+   "content": "[2026 Kazakh legislative election] <p class=\"mw-empty-elt\"> </p> <p>Legislative elections were held in Kazakhstan on 23 August 2026 to elect all 145 members of the Kurultai of the 1st convocation. It was the 10th legislative election since Kazakhstan's independence in 1991 and the first election to the country's new unicameral legislature established by the 2026 Constitution. Turnout was 74.2%, making it the highest turnout recorded in a national vote in Kazakhstan since the 2026 referendum and the highest turnout in a legislative election since 2016. </p><p>The new constitution, approved in a constitutional referendum, provided for the dissolution of the previous bicameral Parliament of Kazakhstan and established the Kurultai as the country's highest representative body. It entered into force on 1 July 2026, on which day President Kassym-Jomart Tokayev signed a decree calling the legislative election for 23 August. The vote also marked the return of party-list proportional representation under the new electoral system for the first time since the 2021 legislative elections. </p><p>The campaign was contested by seven political parties and focused primarily on socio-economic and governance issues. Major campaign issues included living standards, taxation and the minimum wage; inflation and the rising cost of essential goods; economic and industrial development, including regional growth and labour productivity; and the implementation of the new constitutional and parliamentary system. </p><p>Ahead of the election, press freedom organizations reported increasing pressure on independent journalists, including arrests, criminal investigations, travel bans and restrictions on journalistic activity. The Organization for Security and Co-operation in Europe said the elections were \"technically well prepared\" but took place in an environment lacking political pluralism, with limited political alternatives and restrictions on independent candidates, civil society and media. <"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kRctpUHnWDIPShEvVVX2ZDXa",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Kazakhstan new government formation August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kRctpUHnWDIPShEvVVX2ZDXa",
+   "content": "[Second Bektenov Government] <p class=\"mw-empty-elt\"> </p> <p>The <b>Second Bektenov Government</b> (Kazakh: <span lang=\"kk\">Екінші Бектенов үкіметі</span>; Russian: <span lang=\"ru\">Второе правительство Бектенова</span>) is the 20th government of Kazakhstan led by Prime Minister Oljas Bektenov. It was formed on 31 August 2026 following the resignation of the First Bektenov Government after the 2026 legislative election and the convening of the newly established Kurultai. President Kassym-Jomart Tokayev nominated Bektenov for reappointment as prime minister of Kazakhstan, and the Kurultai approved his candidacy. Tokayev subsequently reappointed Bektenov as prime minister and appointed the new government. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The formation of the Second Bektenov Government followed the constitutional reforms adopted in Kazakhstan in 2026, which replaced the previous bicameral Parliament with the unicameral Kurultai and introduced a new system of state institutions. The new constitution entered into force on 1 July 2026, after which President Kassym-Jomart Tokayev called elections to the Kurultai. The elections were held on 23 August, with 145 deputies elected by party-list proportional representation. The newly elected Kurultai convened for its first session on 28 August and elected Aibek Dädebai as its chairman. The constitutional transition and formation of the new legislature required the government to resign before a new government could be formed under the new institutional framework. </p> <h3 data-mw-anchor=\"Formation\" data-mw-wikitext=\"\">Formation</h3> <p>On 28 August 2026, the Bektenov Government, which had been in office since February 2024, resigned ahead of the first session of the newly elected 1st Kurultai. Prime Minister Oljas Bektenov and the other members of the government continued to exercise their duties until the formation of a new government. The resignation was part of the transition to the n"
+  },
+  {
+   "role": "assistant",
+   "content": "The new government of Kazakhstan, known as the Second Bektenov Government, was formed on August 31, 2026, following the legislative election on August 23, 2026. Oljas Bektenov was reappointed as Prime Minister. \n\nFINAL: Oljas Bektenov",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

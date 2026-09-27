@@ -1,0 +1,140 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "extension",
+  "question": "What film broke the record for the highest weekend debut for a music biopic in April 2026?",
+  "answer": "Michael",
+  "evidence": "Michael broke Straight Outta Compton's record ($60.2 million) for the highest weekend debut for a music biopic",
+  "page": "List of 2026 box office number-one films in the United States",
+  "url": "https://en.wikipedia.org/wiki/List_of_2026_box_office_number-one_films_in_the_United_States"
+ },
+ "answer": "The film that broke the record for the highest weekend debut for a music biopic in April 2026 is \"Michael\". \n\nFINAL: Michael",
+ "correct": true,
+ "cost": 0.0012896999999999492,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What film broke the record for the highest weekend debut for a music biopic in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_A8KDDj93KadtOVjiMhLTo9z3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"highest weekend debut music biopic April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_A8KDDj93KadtOVjiMhLTo9z3",
+   "content": "[Vaazha II: Biopic of a Billion Bros] <p class=\"mw-empty-elt\"> </p> <p><i><b>Vaazha II: Biopic of a Billion Bros</b></i> (<abbr style=\"font-size:85%\" title=\"literal translation\">lit.</abbr><span> </span><span>'</span><span>Plantain II: Biopic of a Billion Bros</span><span>'</span>) is a 2026 Indian Malayalam-language coming-of-age comedy-drama film directed by Savin SA (in his directorial debut) and written by Vipin Das. It is a spiritual sequel to <i>Vaazha: Biopic of a Billion Boys</i> (2024). The film stars Hashir H., Alan Bin Siraj, Ajin Joy and Vinayak V alongside Devaraj, Vijay Babu, Bijukuttan, Alphonse Puthren, and Sudheesh in supporting roles. </p><p>Principal photography took place from April to November 2025, shot in Ernakulam, the United Arab Emirates, and Georgia. <i>Vaazha II: Biopic of a Billion Bros</i> was released on 2 April 2026. The film received mixed-to-positive reviews from critics. It was a commercial success and has emerged as the highest-grossing film of all time in Kerala, where it has grossed over <span>₹</span>124 crore, as well as the third highest-grossing Malayalam film of 2026, fifth highest-grossing Malayalam film of all time, and fourth highest-grossing Indian film of 2026. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>Hashir, Alan, Ajin and Vinayak are close friends whose behavior and relationships with classmates often place them at odds with their teachers. Tensions escalate after Alan's sister Ashna is caught at a theatre, skipping class, and a teacher named Mujeeb publicly humiliates her before her parents, prompting Alan and Hashir to assault him. The four friends later face further trouble after being caught abusing drugs obtained from a shopkeeper near their school, leading to a violent altercation in which Manoj Sir is accidentally injured. DySP Xavier Alexander later attributes the incident to both parental negligence and Mujeeb's misconduct, and the boys are ultimately allowed to sit for their examinati"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_KUw3PMAYREL98Rrr2BdVLDCv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"highest weekend debut music biopic April 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_KUw3PMAYREL98Rrr2BdVLDCv",
+   "content": "[Michael (2026 film)] <p class=\"mw-empty-elt\"> </p> <p><i><b>Michael</b></i> is a 2026 biographical film directed by Antoine Fuqua and written by John Logan. It follows the early life of the American singer Michael Jackson, from his time with the Jackson 5 in the 1960s to the Bad World Tour in the late 1980s. Jackson is portrayed by his nephew Jaafar Jackson and as a child by Juliano Valdi, both in their film debuts. The supporting cast includes Nia Long, KeiLyn Durrel Jones, Laura Harrier, Jessica Sula, Mike Myers, Miles Teller, and Colman Domingo. </p><p>Development began in November 2019, when it was reported that Graham King had secured the rights to produce a film about Jackson, with Logan attached to write. Lionsgate announced the film in February 2022. In January 2023, Fuqua was announced as the director, and Jaafar was cast as Michael. Further casting took place from January to April 2024. </p><p>After delays caused by the 2023 SAG-AFTRA strike, principal photography took place between January and May 2024. After a clause was discovered in a legal settlement, references to the 1993 child sexual abuse allegations against Michael were removed, the third act was revised, and reshoots took place in June 2025, bringing the production budget to $155–200 million. </p><p><i>Michael</i> premiered at the Uber Eats Music Hall in Berlin on April 10, 2026, and was released on April 22 in the UK by Universal Pictures and on April 24 in the US by Lionsgate. It received generally negative reviews from critics, who praised Jaafar's performance but criticized the story as \"sanitized\". It grossed $1.029 billion worldwide, making it the highest-grossing biographical film, the first biographical film to reach $1 billion, the highest-grossing Lionsgate film and the fourth-highest-grossing film of 2026. A sequel is in development. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>In 1966, the steel worker Joseph Jackson assembles his sons Jackie, Tito, Jermaine, Marl"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EOiZZIm2TaAwtc65OCQFWbV5",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Michael film box office record music biopic April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EOiZZIm2TaAwtc65OCQFWbV5",
+   "content": "[Michael (2026 film)] <p class=\"mw-empty-elt\"> </p> <p><i><b>Michael</b></i> is a 2026 biographical film directed by Antoine Fuqua and written by John Logan. It follows the early life of the American singer Michael Jackson, from his time with the Jackson 5 in the 1960s to the Bad World Tour in the late 1980s. Jackson is portrayed by his nephew Jaafar Jackson and as a child by Juliano Valdi, both in their film debuts. The supporting cast includes Nia Long, KeiLyn Durrel Jones, Laura Harrier, Jessica Sula, Mike Myers, Miles Teller, and Colman Domingo. </p><p>Development began in November 2019, when it was reported that Graham King had secured the rights to produce a film about Jackson, with Logan attached to write. Lionsgate announced the film in February 2022. In January 2023, Fuqua was announced as the director, and Jaafar was cast as Michael. Further casting took place from January to April 2024. </p><p>After delays caused by the 2023 SAG-AFTRA strike, principal photography took place between January and May 2024. After a clause was discovered in a legal settlement, references to the 1993 child sexual abuse allegations against Michael were removed, the third act was revised, and reshoots took place in June 2025, bringing the production budget to $155–200 million. </p><p><i>Michael</i> premiered at the Uber Eats Music Hall in Berlin on April 10, 2026, and was released on April 22 in the UK by Universal Pictures and on April 24 in the US by Lionsgate. It received generally negative reviews from critics, who praised Jaafar's performance but criticized the story as \"sanitized\". It grossed $1.029 billion worldwide, making it the highest-grossing biographical film, the first biographical film to reach $1 billion, the highest-grossing Lionsgate film and the fourth-highest-grossing film of 2026. A sequel is in development. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>In 1966, the steel worker Joseph Jackson assembles his sons Jackie, Tito, Jermaine, Marl"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OzWeEU1UPLcAjwTtGqiBIv1Y",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"highest weekend debut music biopic April 2026 film Michael\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OzWeEU1UPLcAjwTtGqiBIv1Y",
+   "content": "[Michael (2026 film)] <p class=\"mw-empty-elt\"> </p> <p><i><b>Michael</b></i> is a 2026 biographical film directed by Antoine Fuqua and written by John Logan. It follows the early life of the American singer Michael Jackson, from his time with the Jackson 5 in the 1960s to the Bad World Tour in the late 1980s. Jackson is portrayed by his nephew Jaafar Jackson and as a child by Juliano Valdi, both in their film debuts. The supporting cast includes Nia Long, KeiLyn Durrel Jones, Laura Harrier, Jessica Sula, Mike Myers, Miles Teller, and Colman Domingo. </p><p>Development began in November 2019, when it was reported that Graham King had secured the rights to produce a film about Jackson, with Logan attached to write. Lionsgate announced the film in February 2022. In January 2023, Fuqua was announced as the director, and Jaafar was cast as Michael. Further casting took place from January to April 2024. </p><p>After delays caused by the 2023 SAG-AFTRA strike, principal photography took place between January and May 2024. After a clause was discovered in a legal settlement, references to the 1993 child sexual abuse allegations against Michael were removed, the third act was revised, and reshoots took place in June 2025, bringing the production budget to $155–200 million. </p><p><i>Michael</i> premiered at the Uber Eats Music Hall in Berlin on April 10, 2026, and was released on April 22 in the UK by Universal Pictures and on April 24 in the US by Lionsgate. It received generally negative reviews from critics, who praised Jaafar's performance but criticized the story as \"sanitized\". It grossed $1.029 billion worldwide, making it the highest-grossing biographical film, the first biographical film to reach $1 billion, the highest-grossing Lionsgate film and the fourth-highest-grossing film of 2026. A sequel is in development. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>In 1966, the steel worker Joseph Jackson assembles his sons Jackie, Tito, Jermaine, Marl"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cEb3EA5IXksqr1mnByZuCqnS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Michael record box office music biopic April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cEb3EA5IXksqr1mnByZuCqnS",
+   "content": "[2026 in film] <p class=\"mw-empty-elt\"> </p> <p><b>2026 in film</b> is an overview of events in the film industry scheduled to occur in 2026. Best Picture Academy Award-winners <i>All Quiet on the Western Front</i> and <i>Cimarron</i> entered the public domain this year. </p> <h2 data-mw-anchor=\"Highest-grossing_films\" data-mw-wikitext=\"\">Highest-grossing films</h2> <dl><dd></dd></dl> <h3 data-mw-anchor=\"Box_office_records\" data-mw-wikitext=\"\">Box office records</h3> <ul><li><i>Spider-Man: Brand New Day</i> had the biggest opening weekend ever in the United States and Canada with $360 million, outdoing <i>Avengers: Endgame</i> (2019). It also represented the second film to debut with more than $300 million domestically. <ul><li>The film had the biggest opening day in the United States and Canada with $168 million, overtaking <i>Avengers: Endgame</i> (2019).</li> <li>It became the highest-grossing film of all time domestically in the United States and Canada, surpassing <i>Star Wars: The Force Awakens</i> (2015). Lucasfilm congratulated the film for beating their record.</li> <li>It crossed the $1 billion worldwide milestone six days after release, becoming the second-fastest film to reach that milestone behind <i>Endgame</i>.</li> <li>The film crossed the $2 billion milestone, surpassing the $1.9 billion gross of <i>Spider-Man: No Way Home</i>, becoming the highest-grossing Spider-Man film worldwide and the highest-grossing Sony Pictures release worldwide. It reached the milestone in 19 days, becoming the second-fastest film to reach that milestone behind <i>Endgame</i>.</li> <li><i>Spider-Man: Brand New Day</i> became the 8th film to cross the $2 billion mark and the third-highest grossing film of all time.</li> <li>In India, it had the biggest opening for a foreign film (surpassing <i>Avengers: Endgame</i>) and became the highest-grossing foreign film ever (surpassing <i>Avatar: The Way of Water</i>).</li> <li>The Marvel Cinematic Universe became the first film fr"
+  },
+  {
+   "role": "assistant",
+   "content": "The film that broke the record for the highest weekend debut for a music biopic in April 2026 is \"Michael\". \n\nFINAL: Michael",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

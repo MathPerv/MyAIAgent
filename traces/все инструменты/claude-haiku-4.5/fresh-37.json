@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results I found, the most recent information indicates that the British Medical Association (BMA) announced the four-day strike for resident doctors in England to take place on 15-19 June 2026, with the announcement dated June 4, 2026.\n\nFINAL: June 4, 2026",
+ "correct": false,
+ "cost": 0.022005000000000052,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the resident doctors' strike in England in June 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0124PYVyaTwGXwtfV8s9Zy3F",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"resident doctors England four-day strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0124PYVyaTwGXwtfV8s9Zy3F",
+   "content": "Error while searching: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XyQHWAWPkJ1aKHT9K7RhXY",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"junior doctors strike England 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XyQHWAWPkJ1aKHT9K7RhXY",
+   "content": "Junior Doctor Strike Dates 2026: Full Strike ScheduleJunior Doctor Strike Dates 2026 – Complete Guide for Patients ...Government offer to resident doctors in England to end the ...Junior Doctor Strike Dates 2026 - When Are the Next Walkouts?Resident doctors’ industrial action: April 2026 - esneft.nhs.ukResident Doctors BMA Strike April 2026: Rights & Pay InfoJunior Doctors Strike April 2026: BMA Rejects Jobs Package:\n        href: https://www.ukbusinesstimes.co.uk/junior-doctor-strike-dates/\n        content: \n        Jan 9, 2026 · Discover the confirmed junior doctor strike dates in 2026, with details on the April walkout, NHS disruption, hospital appointment delays and service delays. Apr 19, 2026 · When are the next junior doctor strike dates in England? The BMA provides official updates on upcoming junior doctor strike dates, including confirmed dates for 2026 and potential future strikes. Jun 16, 2026 · The UK Government made a revised offer to resolve the dispute over jobs and pay. The UK RDC executive committee voted to call off the strike action that had been scheduled to take place 15 – 19 June and give members the opportunity to have their say on the offer. Mar 31, 2026 · The next junior doctor strike dates are set for 7 April to 13 April 2026, with resident doctors in England planning a six-day walkout after rejecting the government’s latest offer. Mar 31, 2026 · Resident doctors (formerly known as junior doctors) in England are set to go on strike. The action is part of an ongoing dispute with the government over pay, conditions and employment. The strike is due to run from 7am on Tuesday 7 April until 6.59am on Monday 13 April. Resident doctors (previously known as NHS junior doctors) in England are planning a six-day strike as part of their ongoing dispute with the Government over pay restoration, following the breakdown of negotiations. The strike is scheduled from 7:00 AM on 7 April 2026 to 6:59 AM on 13 April 2026. Resident doctors in England confirm"
+  },
+  {
+   "role": "assistant",
+   "content": "The search results mention June 2026 strike action. Let me search for more specific information about when the strike was announced:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Xz5RqCi9g5x1gXfo5Jh8Ng",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"\\\"resident doctors\\\" England announced strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Xz5RqCi9g5x1gXfo5Jh8Ng",
+   "content": "Resident Doctors England June Strike 2026 NHS Dispute:\n        href: https://www.academicjobs.com/en-uk/global-news/resident-doctors-england-june-strike-2026-nhs-dispute-academicjobs-21261\n        content: \n        May 28, 2026 · Four-day resident doctor strike set for 15-19 June 2026 threatens NHS services in England. Latest on BMA action, pay talks and impact. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I can see that there was a four-day strike scheduled for 15-19 June 2026, and the article date is May 28, 2026. Let me search for the exact announcement date:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Kgfd2LJ6E1aLrRCxFAdXc2",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"resident doctors strike 15-19 June 2026 announced date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Kgfd2LJ6E1aLrRCxFAdXc2",
+   "content": "Called off: Resident doctor strikes 15-19 June 2026:\n        href: https://royalpapworth.nhs.uk/our-hospital/latest-news/resident-doctor-strikes-15-19-june-2026\n        content: \n        Jun 4, 2026 · The British Medical Association (BMA) has announced strike action for resident doctors in June. There will be a full, four-day walk-out by BMA resident doctors from 07:00 on Monday 15 June 2026 until 06:59 on Friday 19 June 2026. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "I can see the strikes were scheduled for 15-19 June 2026, but this source says it was announced on June 4. Let me search for earlier announcements:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UYGJz2GTAyNY3xowraVZ7x",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"BMA resident doctors June 2026 strike announcement May\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UYGJz2GTAyNY3xowraVZ7x",
+   "content": "Error while searching: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results I found, the most recent information indicates that the British Medical Association (BMA) announced the four-day strike for resident doctors in England to take place on 15-19 June 2026, with the announcement dated June 4, 2026.\n\nFINAL: June 4, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

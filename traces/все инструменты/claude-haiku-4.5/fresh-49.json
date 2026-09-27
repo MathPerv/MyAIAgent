@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results, on March 24, 2026, a Delhi court awarded **life imprisonment** to Kashmiri separatist Asiya Andrabi. Her two associates, Sofi Fehmeeda and Nahida Nasreen, were sentenced to 30 years in prison each.\n\nFINAL: Life imprisonment",
+ "correct": true,
+ "cost": 0.0061189999999999856,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Asiya Andrabi's sentencing in India on March 24, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012outCed6AeJ5GKCXKqgdKw",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Asiya Andrabi sentence March 24 2026 India\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012outCed6AeJ5GKCXKqgdKw",
+   "content": "Court awards life sentence to Kashmiri separatist Andrabi ...:\n        href: https://www.hindustantimes.com/india-news/delhi-court-awards-life-sentence-to-kashmiri-separatist-asiya-andrabi-over-terror-activities-101774348978042.html\n        content: \n        A Delhi court on Tuesday awarded Kashmiri separatist Asiya Andrabi life imprisonment, while two of her associates, Sofi Fehmeeda and Nahida Nasreen, have been sentenced to 30 years in prison each. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, on March 24, 2026, a Delhi court awarded **life imprisonment** to Kashmiri separatist Asiya Andrabi. Her two associates, Sofi Fehmeeda and Nahida Nasreen, were sentenced to 30 years in prison each.\n\nFINAL: Life imprisonment",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

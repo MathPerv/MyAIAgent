@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-147",
+  "source": "extension",
+  "question": "Which country's president was captured by U.S. military in January 2026?",
+  "answer": "Venezuela",
+  "evidence": "On January 5, 2026, two days after being captured in Venezuela, Pres. Nicolás Maduro...",
+  "page": "Major Events of 2026",
+  "url": "https://www.britannica.com/topic/Major-Events-of-2026/images-videos"
+ },
+ "answer": "Based on the search results, Venezuela's president Nicolás Maduro was captured by U.S. military in January 2026.\n\nFINAL: Venezuela",
+ "correct": true,
+ "cost": 0.0058629999999997295,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country's president was captured by U.S. military in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about a country's president being captured by U.S. military in January 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019rKb9H8Kn5mY5ydqiz582J",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"president captured U.S. military January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019rKb9H8Kn5mY5ydqiz582J",
+   "content": "2026 United States intervention in Venezuela - Wikipedia:\n        href: https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela\n        content: \n        On 3 January 2026, the United States launched a military strike in Venezuela and captured incumbent Venezuelan president Nicolás Maduro and his wife, Cilia Flores. [14][15] The US operation, codenamed Operation Absolute Resolve, [16][17] began around 2 a.m. local time, when explosions were observed. [18] \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, Venezuela's president Nicolás Maduro was captured by U.S. military in January 2026.\n\nFINAL: Venezuela",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

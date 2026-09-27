@@ -1,0 +1,24 @@
+[project]
+name = "ai-course"
+version = "0.1.0"
+description = "My AI-agent"
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "ipykernel",
+    "ipywidgets",
+    "requests",
+    "pydantic",
+    "python-dotenv",
+    "ddgs"
+]
+
+[project.scripts]
+ai-course = "ai_course:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

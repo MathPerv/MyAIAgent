@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "How many people are reported missing in Tibet after the floods in August 2026?",
+  "answer": "4,500",
+  "evidence": "August 26 – 2026 Nepal–Tibet floods: At least 1,130 people are killed and nearly 4,500 reported missing in Tibet Autonomous Region after a flash flood strikes between Tibet and Nepal.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The reported number of missing persons in Tibet after the floods in August 2026 is 519. \n\nFINAL: 519",
+ "correct": false,
+ "cost": 0.00015765000000000917,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many people are reported missing in Tibet after the floods in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pFyvaapltNbL7NUsVIoJJ3Fn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Tibet floods August 2026 missing persons\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pFyvaapltNbL7NUsVIoJJ3Fn",
+   "content": "[2026 Nepal–Tibet floods] <p class=\"mw-empty-elt\"> </p> <p>On the morning of 26 August 2026, a series of flash floods and debris flows destroyed the Gyirong Port on the China–Nepal border and struck dozens of settlements along a 72 km (45 mi) stretch of the Trishuli River in Nepal. These events are also known as the <b>2026 Nepal-China floods</b>, <b>Bhotekoshi flood</b>, or <b>Rasuwa flood</b>. </p><p>At least 1,451 deaths and 5,745 missing persons in Nepal, and 43 deaths and 519 missing in the Tibet Autonomous Region of China were reported. The flood carried the bodies of some victims 240 km (150 mi) away into neighbouring India. </p><p>Authorities issued flood warnings for communities along rivers in the Nepali districts of Rasuwa, Nuwakot, Dhading, Gorkha, and Chitwan. </p><p>The precipitating geological event, initially reported as a glacier collapse in the Langtang region of the Himalayas, caused a chain reaction whose tremors were detected by seismometers worldwide, with magnitudes reaching <span title=\"Surface-wave mag.\">M<sub>s</sub></span> 5.2. According to experts at the National Society for Earthquake Technology–Nepal (NSET), the University of Reading and Newcastle University, the flood was triggered by a large rock-ice avalanche originating from the Lirung massif, involving glacier ice and rock, which transformed into a highly mobile, long-runout debris flow and generated destructive downstream flooding. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <h3 data-mw-anchor=\"Geography_and_history\" data-mw-wikitext=\"\">Geography and history</h3> <p>The Trishuli River is joined by the Lhende Khola (also known as Lende River or <i>Donglin Tsangpo</i> in Lhasa Tibetan), which originates in Gyirong County, Tibet Autonomous Region before entering Nepal. It then flows past Dhunche, downstream from which it forms part of the Trishuli River system. </p><p>The flash floods and mudslides occurred around the China–Nepal border crossing at Gyiron"
+  },
+  {
+   "role": "assistant",
+   "content": "The reported number of missing persons in Tibet after the floods in August 2026 is 519. \n\nFINAL: 519",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

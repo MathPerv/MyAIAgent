@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "extension",
+  "question": "Which Canadian actor died from pneumonia in July 2026?",
+  "answer": "Sam Neill",
+  "evidence": "Jurassic Park star Sam Neill, who died from pneumonia in July",
+  "page": "Celebrity deaths of 2026",
+  "url": "https://www.yahoo.com/entertainment/celebrity/article/celebrity-deaths-of-2026-remembering-the-stars-weve-lost-from-hayden-panettiere-to-catherine-ohara-154103223.html"
+ },
+ "answer": "I'm unable to predict or provide information about events that occur after my last training cut-off in October 2023. Therefore, I cannot provide details on any incidents, including the death of a Canadian actor in July 2026. \n\nFINAL: Unable to provide information on events after October 2023.",
+ "correct": false,
+ "cost": 4.9650000000012184e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which Canadian actor died from pneumonia in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'm unable to predict or provide information about events that occur after my last training cut-off in October 2023. Therefore, I cannot provide details on any incidents, including the death of a Canadian actor in July 2026. \n\nFINAL: Unable to provide information on events after October 2023.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

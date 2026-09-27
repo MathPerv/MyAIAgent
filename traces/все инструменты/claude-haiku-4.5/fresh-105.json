@@ -1,0 +1,156 @@
+{
+ "task": {
+  "id": "fresh-105",
+  "source": "fresh",
+  "question": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?",
+  "answer": "¥60–120",
+  "evidence": "2 April – Air China, China Southern Airlines, and its subsidiary XiamenAir increase fuel surcharges by ¥60–120 (US$8.70–17.5) on domestic flights in response to rising oil prices linked to the 2026 Iran war.",
+  "page": "2026 in China",
+  "url": "https://en.wikipedia.org/wiki/2026_in_China",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results I was able to retrieve, I found information about fuel surcharge adjustments in April 2026 for Chinese carriers including Air China and China Southern Airlines:\n\n**Fuel Surcharge Adjustments for April 2026:**\n- Starting April 5, 2026, fuel surcharges on domestic routes were increased\n- For routes of 800 kilometers or less: 60 yuan per flight segment\n- For routes exceeding 800 kilometers: 120 yuan per flight segment\n\nHowever, the search results I obtained don't provide the **previous surcharge amounts** to calculate the exact increase. The articles confirm that both Air China and China Southern Airlines announced these increases effective April 5, 2026, but the specific increase amounts (the difference from previous levels) are not detailed in the retrieved content.\n\nFINAL: Based on available search results, Air China and China Southern Airlines increased fuel surcharges on April 5, 2026 to 60 yuan for routes ≤800km and 120 yuan for routes >800km, but the exact increase amount from previous levels is not available in the search results obtained.",
+ "correct": false,
+ "cost": 0.022356000000000043,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the increase in fuel surcharges by Air China and China Southern Airlines in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about fuel surcharges increases by Air China and China Southern Airlines in April 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01L739Mv2eyDXA9UUJ4Hk1Eq",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Air China fuel surcharge increase April 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_019WUiVWn8kRokRpqBzpA55f",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"China Southern Airlines fuel surcharge increase April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01L739Mv2eyDXA9UUJ4Hk1Eq",
+   "content": "Domestic Travel in China Faces New Fuel Surcharge Adjustments ...:\n        href: https://www.travelandtourworld.com/news/article/domestic-travel-in-china-faces-new-fuel-surcharge-adjustments-from-april-2026/\n        content: \n        Apr 5, 2026 · In a move set to impact domestic air travel in China, the government has announced changes to the fuel surcharge on flights sold starting from April 5, 2026. \n        "
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019WUiVWn8kRokRpqBzpA55f",
+   "content": "Chinese carriers to raise fuel surcharges on domestic routes:\n        href: https://www.china.org.cn/2026-04/02/content_118415403.shtml\n        content: \n        Apr 2, 2026 · Leading Chinese carriers, including Air China and China Southern Airlines, announced Wednesday that fuel surcharges for domestic routes will be raised starting April 5. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Good! I found relevant sources. Let me get more detailed information from these articles.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012t1utEt48gEVq5JNFMZDHq",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"\\\"Air China\\\" \\\"China Southern\\\" fuel surcharge April 2026 increase amount\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012t1utEt48gEVq5JNFMZDHq",
+   "content": "Chinese carriers to raise fuel surcharges on domestic routes:\n        href: https://english.news.cn/20260401/84fbe04b69534cd59136285f7b7ee1e1/c.html\n        content: \n        Apr 1, 2026 · For routes of 800 kilometers or less, the fuel surcharge will be set at 60 yuan (about 8.69 U.S. dollars), while for routes exceeding 800 kilometers, the fuel surcharge will increase to 120 yuan per flight segment. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more specific information about the increase amounts.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_017XHxmwto6bLqpdCkP4sXWy",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"fuel surcharge April 5 2026 China domestic routes 60 yuan 120 yuan\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017XHxmwto6bLqpdCkP4sXWy",
+   "content": "Error while searching: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01M87p9nd2dMEcEL5moJSY9u",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"\\\"fuel surcharge\\\" \\\"April 2026\\\" China airlines increase previous\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01M87p9nd2dMEcEL5moJSY9u",
+   "content": "Error while searching: error sending request for url (https://html.duckduckgo.com/html/) > operation timed out"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try another search approach to find the specific increase amounts.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01PznLRa7aizB1VwqUqPsxtn",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Chinese airlines fuel surcharge rise April 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01PznLRa7aizB1VwqUqPsxtn",
+   "content": "Error while searching: ConnectError: ConnectError('error sending request for url (https://www.startpage.com/) > client error (Connect) > tcp connect error > Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение. (os error 10061)')"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results I was able to retrieve, I found information about fuel surcharge adjustments in April 2026 for Chinese carriers including Air China and China Southern Airlines:\n\n**Fuel Surcharge Adjustments for April 2026:**\n- Starting April 5, 2026, fuel surcharges on domestic routes were increased\n- For routes of 800 kilometers or less: 60 yuan per flight segment\n- For routes exceeding 800 kilometers: 120 yuan per flight segment\n\nHowever, the search results I obtained don't provide the **previous surcharge amounts** to calculate the exact increase. The articles confirm that both Air China and China Southern Airlines announced these increases effective April 5, 2026, but the specific increase amounts (the difference from previous levels) are not detailed in the retrieved content.\n\nFINAL: Based on available search results, Air China and China Southern Airlines increased fuel surcharges on April 5, 2026 to 60 yuan for routes ≤800km and 120 yuan for routes >800km, but the exact increase amount from previous levels is not available in the search results obtained.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

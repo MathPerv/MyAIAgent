@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-112",
+  "source": "fresh",
+  "question": "What mission was launched by ESA and CAS on May 19, 2026?",
+  "answer": "SMILE",
+  "evidence": "On 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: SMILE (Solar wind Magnetosphere Ionosphere Link Explorer)",
+ "correct": true,
+ "cost": 0.005732999999999988,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What mission was launched by ESA and CAS on May 19, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the ESA and CAS mission launched on May 19, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DomVBhawd4ZLMknV9dkLjo",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"ESA CAS mission May 19 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DomVBhawd4ZLMknV9dkLjo",
+   "content": "SMILE (spacecraft) - Wikipedia:\n        href: https://en.wikipedia.org/wiki/SMILE_(spacecraft)\n        content: \n        Solar wind Magnetosphere Ionosphere Link Explorer (SMILE) is a spacecraft mission of the European Space Agency and the Chinese Academy of Sciences launched on 19 May 2026 from the Guiana Space Centre in French Guiana. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: SMILE (Solar wind Magnetosphere Ionosphere Link Explorer)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "extension",
+  "question": "Who plays the lead role of a meteorologist in Disclosure Day?",
+  "answer": "Emily Blunt",
+  "evidence": "Emily Blunt as Margaret Fairchild, a Kansas City TV meteorologist and former journalist",
+  "page": "Disclosure Day",
+  "url": "https://en.wikipedia.org/wiki/Disclosure_Day"
+ },
+ "answer": "Emily Blunt plays the lead role of a meteorologist in \"Disclosure Day.\" \n\nFINAL: Emily Blunt",
+ "correct": true,
+ "cost": 0.0001435499999999923,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who plays the lead role of a meteorologist in Disclosure Day?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_AJOphyfvotrLgveACP763qWg",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Disclosure Day movie cast\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_AJOphyfvotrLgveACP763qWg",
+   "content": "[Disclosure Day] <p class=\"mw-empty-elt\"> </p> <p><i><b>Disclosure Day</b></i> is a 2026 American science fiction thriller film directed and produced by Steven Spielberg from a screenplay by David Koepp, based on a story by Spielberg. The film stars an ensemble cast, including Emily Blunt, Josh O'Connor, Colin Firth, Eve Hewson, and Colman Domingo. In the film, a television meteorologist (Blunt) and a cybersecurity analyst (O'Connor) go on a mission to disclose the existence of extraterrestrial life to the world, while trying to evade the trail of a government contractor (Firth), who tries to prevent them from getting the secret out. </p><p>In April 2024, it was reported that Spielberg's next project would be a UFO film, with Koepp writing the screenplay. Within the next few months, Universal Pictures was announced as distributor and Blunt was cast in the lead role. Filming took place from February to May 2025 in New York and New Jersey. John Williams composed the film's score, marking his thirtieth collaboration with Spielberg. </p><p><i>Disclosure Day</i> premiered at Le Grand Rex in Paris on June 2, 2026, and was released theatrically in the United States on June 12. It received positive reviews and has grossed $241 million worldwide on a $115 million budget. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>As the planet is on the brink of a nuclear war, cybersecurity specialist Dr. Daniel Kellner has stolen material from his employer, a secretive U.S. government contractor known as the Wardex Corporation (Waived Reporting, Development, and Extraction). Daniel's theft includes an artifact of extraterrestrial technology and \"The Archive\": decades of documents and hard drives containing footage of extraterrestrial encounters dating to the Roswell incident. When cornered by Wardex CEO Noah Scanlon, Daniel threatens him with the extraterrestrial device and escapes with his girlfriend, Jane Blankenship; they hide at her former convent. </p><p>In Kansas "
+  },
+  {
+   "role": "assistant",
+   "content": "Emily Blunt plays the lead role of a meteorologist in \"Disclosure Day.\" \n\nFINAL: Emily Blunt",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

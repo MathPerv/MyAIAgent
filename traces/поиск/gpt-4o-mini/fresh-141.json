@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-141",
+  "source": "extension",
+  "question": "Which company won the 24 Hours of Le Mans in June 2026?",
+  "answer": "Toyota Racing",
+  "evidence": "In endurance racing, Toyota Racing wins the 24 Hours of Le Mans with drivers Mike Conway, Kamui Kobayashi, and Nyck de Vries",
+  "page": "Portal:Current events/June 2026",
+  "url": "https://en.wikipedia.org/wiki/Portal:Current_events/June_2026"
+ },
+ "answer": "The 24 Hours of Le Mans in June 2026 was won by Toyota. \n\nFINAL: Toyota",
+ "correct": false,
+ "cost": 0.00015959999999998198,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which company won the 24 Hours of Le Mans in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gAE19VWA014yE9JL7YQMbinz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 24 Hours of Le Mans winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gAE19VWA014yE9JL7YQMbinz",
+   "content": "[2026 24 Hours of Le Mans] <p class=\"mw-empty-elt\"> </p> <p>The <b>94th 24 Hours of Le Mans</b> (French: <i lang=\"fr\">94<sup>e</sup> 24 Heures du Mans</i>) was an automobile endurance race held on 13–14 June 2026 at the Circuit de la Sarthe in Le Mans, France. It was the 94th running of the 24-hour race organised by the Automobile Club de l'Ouest, and the third round of the 2026 FIA World Endurance Championship. Hyundai's luxury division Genesis ran two cars in the Hypercar class, becoming the first South Korean team to compete at the 24-hour race. </p><p>In qualifying, pole position was taken by Dries Vanthoor in a BMW M Team WRT Hypercar. The race was closely contested, with numerous lead changes between BMW, Cadillac and Toyota; seven cars finished on the lead lap. The overall classification was won by the #7 Toyota Hypercar, driven by Mike Conway, Kamui Kobayashi and Nyck de Vries, ending a three-year streak for Ferrari. The LMP2 class saw the No. 43 Oreca 07 of Tom Dillmann, Jakub Śmiechowski and Nick Yelloly lead an Inter Europol Competition one-two finish, the team's third victory in four years. The LMGT3 category went to TF Sport's No. 33 Chevrolet Corvette Z06 GT3.R of Nicky Catsburg, Jonny Edgar and Ben Keating, the tenth class win for the American brand. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The 2026 24 Hours of Le Mans was the 94th running of the 24 Hours of Le Mans endurance race, held on 13–14 June 2026 at the Circuit de la Sarthe. The race formed the third round of the 2026 FIA World Endurance Championship season. Manufacturer changes for the 2026 season included Porsche's withdrawal from the WEC Hypercar class and the full-season debut of Genesis Magma Racing, the first South Korean manufacturer team to compete in the top class. </p> <h2 data-mw-anchor=\"Entries\" data-mw-wikitext=\"\">Entries</h2> <p>The 2026 entry list featured 62 cars across three classes; 18 Hypercar, 19 LMP2, and 25 LMGT3. South Korean marque Ge"
+  },
+  {
+   "role": "assistant",
+   "content": "The 24 Hours of Le Mans in June 2026 was won by Toyota. \n\nFINAL: Toyota",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

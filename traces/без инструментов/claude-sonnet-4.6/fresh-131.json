@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "extension",
+  "question": "What was the name of the spacecraft that carried the Artemis II crew around the Moon in April 2026?",
+  "answer": "Orion",
+  "evidence": "The Orion space capsule seconds before splashing down in the Pacific Ocean, April...",
+  "page": "Artemis II",
+  "url": "https://www.britannica.com/topic/Artemis-II/images-videos"
+ },
+ "answer": "I need to check this carefully. My knowledge cutoff is early 2025, and Artemis II was planned but had not yet launched as of that time. I cannot confirm details about events that may have occurred in April 2026.\n\nHowever, the Artemis II mission was planned to use the **Orion** spacecraft, launched atop the Space Launch System (SLS) rocket. If the mission proceeded as planned, the spacecraft would have been Orion.\n\nFINAL: Orion",
+ "correct": true,
+ "cost": 0.0020489999999999953,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the name of the spacecraft that carried the Artemis II crew around the Moon in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check this carefully. My knowledge cutoff is early 2025, and Artemis II was planned but had not yet launched as of that time. I cannot confirm details about events that may have occurred in April 2026.\n\nHowever, the Artemis II mission was planned to use the **Orion** spacecraft, launched atop the Space Launch System (SLS) rocket. If the mission proceeded as planned, the spacecraft would have been Orion.\n\nFINAL: Orion",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

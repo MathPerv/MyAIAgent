@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-80",
+  "source": "fresh",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "answer": "UGC Equity Regulations, 2026",
+  "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, also known as the Anti-Discrimination Rules, which aimed to address discrimination in higher education institutions. \n\nFINAL: Stay of UGC Equity Regulations, 2026.",
+ "correct": true,
+ "cost": 0.0005208000000000435,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What regulation did the Supreme Court of India stay on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uxrVTYuV76mlFYf9JsEgWVpR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Supreme Court of India stay January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uxrVTYuV76mlFYf9JsEgWVpR",
+   "content": "[Supreme Court of the United States] <p class=\"mw-empty-elt\"> </p> <p>The <b>Supreme Court of the United States</b> (<b>SCOTUS</b>) is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, and over state court cases that turn on questions of U.S. constitutional or federal law. It also has original jurisdiction over a narrow range of cases, specifically \"all Cases affecting Ambassadors, other public Ministers and Consuls, and those in which a State shall be Party\". In 1803, the court asserted the power of judicial review, the ability to invalidate a statute for violating a provision of the Constitution. It is also able to strike down presidential directives for violating either the Constitution or statutory law. </p><p>Under Article Three of the United States Constitution, the composition and procedures of the Supreme Court were originally established by the 1st Congress through the Judiciary Act of 1789. As currently constituted the court consists of nine justices—the chief justice of the United States and eight associate justices—who meet at the Supreme Court Building in Washington, D.C. Justices have lifetime tenure, meaning they remain on the court until they die, retire, resign, or are impeached and removed from office. When a vacancy occurs, the president, with the advice and consent of the Senate, appoints a new justice. </p><p>Each justice has a single vote in deciding the cases argued before the court. When in the majority, the chief justice decides who writes the opinion of the court; otherwise, the most senior justice in the majority assigns the task. A justice may write an opinion in concurrence with the court, or they may write a dissent, and these concurrences or dissents may also be joined by other justices. On average, the Supreme Court receives about 7,000 petitions for writs of certiorari each year, but only grants about 80. </p> <h2 data-mw-anchor=\"History\" data-mw"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qWYMuIz4IY1ftENXP1Uw48JQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Supreme Court of India regulation stay January 29 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_ZQQsWrO4BoYA9TDMVYeDLHk7",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"India Supreme Court judgement January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qWYMuIz4IY1ftENXP1Uw48JQ",
+   "content": "[UGC Equity Regulations, 2026] <p> The <b>University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026</b>, commonly referred to as the <b>UGC Equity Regulations, 2026</b> or the <b>Anti-Discrimination Rules, 2026</b>, are regulations notified by the University Grants Commission (UGC) in India aimed at addressing discrimination within higher education institutions (HEIs). The regulations seek to replace the existing 2012 regulations with more stringent measures to ensure inclusion for students from marginalized backgrounds, particularly the Scheduled Castes (SC), Scheduled Tribes (ST) and Other Backward Classes (OBC). </p><p>The bill saw protests against the Bharatiya Janta Party (BJP) across the country. As of 29 January 2026, the Supreme Court of India has stayed the proposed regulations. </p> <h2 data-mw-anchor=\"Key_provisions_of_the_regulations\" data-mw-wikitext=\"\">Key provisions of the regulations</h2> <p>The regulations introduce several mandates for colleges and universities to promote equity: </p> <ul><li>Anti-discrimination cells: Institutions must establish a dedicated cell to handle complaints related to discrimination based on caste, religion, gender, or disability.</li> <li>Equity officers: Institutions are required to appoint an \"Equity Officer\" to oversee the implementation of inclusive policies and ensure that students from disadvantaged groups are not harassed or excluded from academic and extracurricular activities.</li> <li>Inclusion in curriculum: There are suggestions for sensitizing faculty and students through mandatory orientation programs and the inclusion of equity-based themes in the academic environment.</li> <li>Oversight in implementation: Institutions are required to submit annual reports to the UGC detailing the number of discrimination complaints received and the actions taken. The UGC would also maintain a portal to track institutional compliance across the country</li> <li>Stricter penalties"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZQQsWrO4BoYA9TDMVYeDLHk7",
+   "content": "[Supreme Court of India] <p class=\"mw-empty-elt\"> </p> <p>The <b>Supreme Court of India</b> is the supreme judicial authority and the highest court in India. It is the highest appellate court for all civil and criminal cases in India. The court is led by the Chief Justice of India and has a maximum sanctioned strength of 37 judges excluding the chief justice. It was established on 28 January 1950, two days after India became a republic, and replaced the Judicial Committee of the Privy Council and the Federal Court of India as the highest court of appeal. It has operated from the Supreme Court building in New Delhi since 1958. With expansive authority to initiate actions and wield appellate jurisdiction over all courts and the ability to invalidate amendments to the constitution, the Supreme Court of India is widely acknowledged as one of the most powerful supreme courts in the world. </p><p>Established under the Constitution of India, the Supreme Court has extensive powers in the form of original, appellate and advisory jurisdictions. As the apex constitutional court, it takes up appeals primarily against verdicts of the High Courts of various states and tribunals. As an advisory court, it hears matters which are referred by the president of India. It also has the power of judicial review, in which the court invalidates both ordinary laws as well as constitutional amendments as per the basic structure doctrine that it developed in the 1960s and 1970s. </p><p>As mandated by the Constitution, the Supreme Court is required to safeguard the fundamental rights of citizens and to settle legal disputes among the central government and various state governments. Its decisions are binding on other Indian courts as well as the union and state governments. As per the Article 142 of the constitution, the court has the inherent jurisdiction to pass any order deemed necessary in the interest of <i>complete justice</i> which becomes binding on the president to enforce. </p> <h2 da"
+  },
+  {
+   "role": "assistant",
+   "content": "On January 29, 2026, the Supreme Court of India stayed the University Grants Commission (Promotion of Equity in Higher Education Institutions) Regulations, 2026, also known as the Anti-Discrimination Rules, which aimed to address discrimination in higher education institutions. \n\nFINAL: Stay of UGC Equity Regulations, 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

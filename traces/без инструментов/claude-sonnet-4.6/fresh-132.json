@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-132",
+  "source": "extension",
+  "question": "Who was the commander of the Artemis II mission?",
+  "answer": "Reid Wiseman",
+  "evidence": "Mission commander NASA astronaut Reid Wiseman (far left), Canadian Space Agency astronaut...",
+  "page": "Artemis II",
+  "url": "https://www.britannica.com/topic/Artemis-II/images-videos"
+ },
+ "answer": "The commander of the Artemis II mission is **Reid Wiseman**, a NASA astronaut.\n\nFINAL: Reid Wiseman",
+ "correct": true,
+ "cost": 0.0008430000000000104,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was the commander of the Artemis II mission?"
+  },
+  {
+   "role": "assistant",
+   "content": "The commander of the Artemis II mission is **Reid Wiseman**, a NASA astronaut.\n\nFINAL: Reid Wiseman",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

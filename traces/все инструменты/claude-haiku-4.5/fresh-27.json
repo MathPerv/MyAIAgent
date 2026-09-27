@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-27",
+  "source": "fresh",
+  "question": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?",
+  "answer": "Markus Hinterhäuser",
+  "evidence": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "Teodor Currentzis",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: Markus Hinterhäuser",
+ "correct": true,
+ "cost": 0.00889300000000004,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this Salzburg Festival incident from March 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018S665fvJRkFbbeAYCNNCCw",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Salzburg Festival March 26 2026 placed on leave September 30\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018S665fvJRkFbbeAYCNNCCw",
+   "content": "Error while searching: No results found."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different search approach.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Uc4p7fZQ2iVkYEKYmED2o4",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Salzburg Festival conductor leave March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Uc4p7fZQ2iVkYEKYmED2o4",
+   "content": "2026 in classical music - Wikipedia:\n        href: https://en.wikipedia.org/wiki/2026_in_classical_music\n        content: \n        26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: Markus Hinterhäuser",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

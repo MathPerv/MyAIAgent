@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-125",
+  "source": "extension",
+  "question": "Which country's president was captured by U.S. military in January 2026",
+  "answer": "Venezuela",
+  "evidence": "January 3: The U.S. military captures Venezuelan Pres. Nicolás Maduro and his wife, Cilia Flores, during a large-scale attack on the South American country.",
+  "page": "Major Events of 2026",
+  "url": "https://www.britannica.com/topic/Major-Events-of-2026"
+ },
+ "answer": "In January 2026, the president captured by U.S. military was Nicolás Maduro of Venezuela. \n\nFINAL: Nicolás Maduro",
+ "correct": false,
+ "cost": 0.0004064999999999763,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which country's president was captured by U.S. military in January 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aFxTsAfvW9N13KXmbAwGnjMq",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"president captured by U.S. military January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aFxTsAfvW9N13KXmbAwGnjMq",
+   "content": "[2026 United States F-15E rescue operation in Iran] <p class=\"mw-empty-elt\"> </p> <p>In early April 2026, a combat search and rescue (CSAR) operation was conducted by the United States Department of Defense to recover two crew members of a McDonnell Douglas F-15E Strike Eagle of the 494th Fighter Squadron. The aircraft had been shot down over Iran by Iranian forces on 3 April 2026, during the 2026 Iran war. </p><p>The pilot was rescued by U.S. forces seven hours after the crash. The operation involved hundreds of U.S. troops and dozens of aircraft. The weapon systems officer (WSO) escaped in the area of the Zagros Mountains, while the Iranian Revolutionary Guard Corps (IRGC), U.S. combat search and rescue personnel, and the local nomadic tribesmen worked to find him. The WSO was recovered by U.S. forces supported by 155 aircraft. A U.S. military official described it as \"one of the most challenging and complex [missions] in the history of U.S. special operations.\" </p><p>Iran claimed multiple aircraft shootdowns during the rescue operation. The U.S. claimed there had been a shootdown of one of its A-10 Thunderbolt II attack aircraft, and the intentional destruction of two of its Lockheed MC-130 transport aircraft and four helicopters to avoid capture. Iran later claimed the \"operation may have been a deceptive plan to steal enriched uranium\" of Iran's nuclear program, and compared the operation to the failed 1980 Operation Eagle Claw, the last publicly acknowledged U.S. military ground operation in Iran. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>On 28 February 2026, the United States and Israel started a series of surprise attacks on a variety of military and industrial targets across Iran, thus starting the war with Iran. On 24 March, U.S. President Donald Trump claimed that Iran was unable to \"do a thing\" about U.S. aircraft operating in its airspace. </p><p>On 3 April, an American F-15E Strike Eagle (call sign Dude 44) was shot d"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_m3wQBOanF2qfz03FJP7IKpp3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"president captured January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_m3wQBOanF2qfz03FJP7IKpp3",
+   "content": "[2026 United States intervention in Venezuela] <p class=\"mw-empty-elt\"> </p> <p>On 3 January 2026, the United States launched a military strike in Venezuela and captured incumbent Venezuelan president Nicolás Maduro and his wife, Cilia Flores. The US operation, codenamed <b>Operation Absolute Resolve</b>, began around 2 a.m. local time, when explosions were observed. The US Armed Forces bombed infrastructure across northern Venezuela to suppress air defenses as an apprehension force attacked Maduro's compound in Caracas. Approximately 80 people, including Venezuelan and Cuban military and civilians, died and seven American soldiers were wounded. Maduro and Flores were transported to New York City by US forces and were indicted on drug trafficking charges to which Maduro and Flores pleaded not guilty. </p><p>US president Donald Trump and his administration justified the operation as a law-enforcement action with military support, saying that the president has \"inherent constitutional authority\" to undertake such an act. Venezuelan vice president Delcy Rodríguez denounced Maduro's \"kidnapping\". Venezuelan officials said at least 23 Venezuelan security officers were killed during the attack. The Cuban government said that 32 members of the Cuban military and intelligence agencies were killed. Officials in the United Nations (UN), the US, and other countries, as well as international law experts said the raid violated the UN Charter and Venezuela's sovereignty. Other reactions around the world included celebrations by the Venezuelan diaspora and protests against the attack. </p><p>The Venezuelan government remained in place, with Rodríguez sworn in as acting president on 5 January 2026. Multiple political prisoners (including foreigners) detained in Venezuela were released, a gesture which, according to Trump, contributed to avoiding a second wave of attacks. On 30 January, Rodríguez announced an amnesty bill for political prisoners covering the period of 1999 to presen"
+  },
+  {
+   "role": "assistant",
+   "content": "In January 2026, the president captured by U.S. military was Nicolás Maduro of Venezuela. \n\nFINAL: Nicolás Maduro",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "extension",
+  "question": "What film broke the record for the highest weekend debut for a music biopic in April 2026?",
+  "answer": "Michael",
+  "evidence": "Michael broke Straight Outta Compton's record ($60.2 million) for the highest weekend debut for a music biopic",
+  "page": "List of 2026 box office number-one films in the United States",
+  "url": "https://en.wikipedia.org/wiki/List_of_2026_box_office_number-one_films_in_the_United_States"
+ },
+ "answer": "У меня нет информации о событиях после октября 2023 года. Вы можете проверить последние новости или источники информации о кино, чтобы узнать, какой фильм установил этот рекорд. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 4.199999999998649e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What film broke the record for the highest weekend debut for a music biopic in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о событиях после октября 2023 года. Вы можете проверить последние новости или источники информации о кино, чтобы узнать, какой фильм установил этот рекорд. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-149",
+  "source": "extension",
+  "question": "What robot competition took place in Beijing in 2026?",
+  "answer": "World Humanoid Robot Games",
+  "evidence": "Robots competed in tennis, track-and-field, boxing, martial arts, and other sports at the World Humanoid Robot Games in Beijing",
+  "page": "Robots Compete in Boxing, Martial Arts, and More at Beijing's 'Robot Olympics,' 2026",
+  "url": "https://www.britannica.com/video/robot-olympics-2026-boxing-martial-arts-tennis-video/-368462"
+ },
+ "answer": "The robot competition that took place in Beijing in 2026 was the **World Humanoid Robot Games**. \n\nFINAL: World Humanoid Robot Games",
+ "correct": true,
+ "cost": 0.00020925000000004967,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What robot competition took place in Beijing in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MGsH4zBK8ZnToJ4n5oNID2Wv",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"robot competition Beijing 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MGsH4zBK8ZnToJ4n5oNID2Wv",
+   "content": "[World Humanoid Robot Games] <p>The <b>World Humanoid Robot Games</b> (<b>WHRG</b>) is a competition featuring humanoid robots. It was first held in Beijing in August 2025. </p> <h2 data-mw-anchor=\"Format\" data-mw-wikitext=\"\">Format</h2> <p>Contests are divided into competition events, which are sporting contests that follow rules similar to their human equivalents, and scenario-based events, which are challenges based on potential real-world operating scenarios. </p><p>\"Autonomy\" is a major part of the competition and each event has an \"Autonomy Weight Coefficient\" which determines how autonomous robots must be to compete. Full autonomy means that the robot completes an event without a human operator being \"in the loop\". </p><p>In the latest 2026 edition, many competition events require robots to operate fully autonomously. In scenario-based events where full autonomy is not required, Games officials award full points to robots operating autonomously, while robots relying on teleoperation receive only half the available points. </p><p>As of 2026, activities that mandate full autonomy include sprints, 4 x 100m relay, soccer, tai chi, and gymnastics. Other events, such as the 400m obstacle course and kickboxing, do not make full autonomy compulsory and permit a human to be in the loop. </p> <h2 data-mw-anchor=\"Editions\" data-mw-wikitext=\"\">Editions</h2> <h3 data-mw-anchor=\"2025\" data-mw-wikitext=\"\">2025</h3> <p>The <b>2025 World Humanoid Robot Games</b> (Chinese: <span lang=\"zh\">2025世界人形机器人运动会</span>) was held in Beijing in August 2025. The inaugural edition featured 280 teams and more than 500 humanoid robots competing in 26 events, including boxing, football, cleaning and medicine sorting. </p> <h3 data-mw-anchor=\"2026\" data-mw-wikitext=\"\">2026</h3> <p>The <b>2026 World Humanoid Robot Games</b> was held in Beijing from 22 to 26 August 2026. The second edition features 2,056 robots from 666 teams competing in 51 events: 30 competitive events, including football, ath"
+  },
+  {
+   "role": "assistant",
+   "content": "The robot competition that took place in Beijing in 2026 was the **World Humanoid Robot Games**. \n\nFINAL: World Humanoid Robot Games",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

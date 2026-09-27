@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "extension",
+  "question": "Who directed the 2026 film Her Private Hell?",
+  "answer": "Nicolas Winding Refn",
+  "evidence": "Her Private Hell is a 2026 science fiction thriller film directed, co-written, and produced by Nicolas Winding Refn.",
+  "page": "Her Private Hell (2026 film)",
+  "url": "https://en.wikipedia.org/wiki/Her_Private_Hell_(2026_film)"
+ },
+ "answer": "I need to check if there's a 2026 film called \"Her Private Hell.\" There is a 1968 British film called \"Her Private Hell,\" but a 2026 version is beyond my knowledge cutoff, and I'm not certain about its details.\n\nLet me reconsider — my knowledge cutoff is early 2025, so I may not have reliable information about a 2026 film. However, there may also be some confusion with the 1968 film directed by Norman J. Warren.\n\nI don't have reliable information about a 2026 film called \"Her Private Hell.\"\n\nFINAL: I don't have information about a 2026 film called Her Private Hell.",
+ "correct": false,
+ "cost": 0.0026880000000000237,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who directed the 2026 film Her Private Hell?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check if there's a 2026 film called \"Her Private Hell.\" There is a 1968 British film called \"Her Private Hell,\" but a 2026 version is beyond my knowledge cutoff, and I'm not certain about its details.\n\nLet me reconsider — my knowledge cutoff is early 2025, so I may not have reliable information about a 2026 film. However, there may also be some confusion with the 1968 film directed by Norman J. Warren.\n\nI don't have reliable information about a 2026 film called \"Her Private Hell.\"\n\nFINAL: I don't have information about a 2026 film called Her Private Hell.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

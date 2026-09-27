@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Sussan Ley was ousted by Angus Taylor on February 13, 2026, in a leadership spill. FINAL: Angus Taylor",
+ "correct": true,
+ "cost": 0.0004090500000000219,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lAZ3v287yj7WuxIZl91tBYEL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Sussan Ley ousted February 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lAZ3v287yj7WuxIZl91tBYEL",
+   "content": "[Sussan Ley] <p class=\"mw-empty-elt\"> </p> <p><b>Sussan Penelope Ley</b> (<span title=\"Name at birth\">née <b>Braybrooks</b></span>; born 14 December 1961) is an Australian retired politician who served as the leader of the Opposition from 2025 to 2026, holding office as the 16th leader of the Liberal Party. She was the member of Parliament (MP) for the New South Wales division of Farrer from 2001 to 2026, and served as a minister in the Abbott, Turnbull, and Morrison governments. </p><p>Born into an English family in Nigeria, Ley grew up in the Trucial States (now the United Arab Emirates) and England, before moving to Australia as a teenager. Prior to entering politics, she worked as a commercial pilot, farmer and public servant based in Albury. She was elected to the House of Representatives at the 2001 federal election, winning the regional New South Wales seat of Farrer. Ley was appointed parliamentary secretary by John Howard in 2004, serving until the Coalition's defeat at the 2007 election. After the election, she held positions in the Nelson, Turnbull, and Abbott shadow ministries. </p><p>After the Liberal–National Coalition's victory at the 2013 election, Ley was appointed Assistant Minister for Education by Tony Abbott, later joining the cabinet in 2014 as Minister for Health and Minister for Sport. She continued to serve in the cabinet until January 2017, resigning amid a scandal regarding her travel expenses. She would return to the ministry in August 2018 after Scott Morrison succeeded Malcolm Turnbull as prime minister, becoming an assistant minister and later returning to cabinet in 2019 as Minister for the Environment, remaining in this position until the Coalition's defeat at the 2022 election. </p><p>Ley was elected unopposed as deputy leader of the Liberal Party under Peter Dutton after the 2022 defeat. After Dutton lost his seat in the Coalition's landslide defeat at the 2025 election, she was elected Liberal leader at a leadership election, beco"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XRRzldWsK1AemAFaLpFfw7eV",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Sussan Ley\",\"keywords\":[\"ousted\",\"February 2026\"]}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XRRzldWsK1AemAFaLpFfw7eV",
+   "content": "ley was elected unopposed as deputy leader of the liberal party under peter dutton  after the 2022 defeat. after dutton lost his seat in the coalition's landslide defeat at the 2025 election, she was elected liberal leader at a leadership election, becoming leader of the opposition as the first woman in australian history to hold either position. in her tenth month as leader in 2026, she was ousted by angus taylor in a leadership spill; she subsequently retired from politics, triggering a by-election in her seat of farrer.\non 8 february 2026, the coalition reunited following an agreement between the nationals and liberals. on the same day, an article in the daily telegraph quoted federal young liberal president cooper gannon and vice president hannah hutton as calling on her to resign \"for the sake of our nation's future\", being the first time a young liberal president explicitly called on the leader to step aside. hours later, a poll from newspoll showed ley as the least popular opposition leader since simon crean in 2003.\non 11 february 2026, angus taylor resigned from the shadow ministry, citing the opposition's deteriorating performance under ley's leadership. in response to the intensifying criticism and taylor’s resignation, ley called a leadership spill after jessica collins and phillip thompson launched a spill motion. the leadership spill was held on 13 february, resulting in taylor defeating ley by a margin of 34 votes to 17 in the spill ballot, ending her tenure as the leader of the liberal party. lasting 276 days, her leadership was the second shortest in the party's history, behind only that of alexander downer. following the leadership spill, ley formally announced her resignation from parliament on 27 february. this triggered a by-election in her electorate of farrer, which was won by one nation."
+  },
+  {
+   "role": "assistant",
+   "content": "Sussan Ley was ousted by Angus Taylor on February 13, 2026, in a leadership spill. FINAL: Angus Taylor",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

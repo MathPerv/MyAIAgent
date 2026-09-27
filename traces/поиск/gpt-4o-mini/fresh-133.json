@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "extension",
+  "question": "What is the name of the Steven Spielberg film about extraterrestrial disclosure released in June 2026?",
+  "answer": "Disclosure Day",
+  "evidence": "Disclosure Day is a 2026 American science fiction thriller film directed and produced by Steven Spielberg...",
+  "page": "Disclosure Day",
+  "url": "https://en.wikipedia.org/wiki/Disclosure_Day"
+ },
+ "answer": "The name of the Steven Spielberg film about extraterrestrial disclosure released in June 2026 is \"Disclosure Day.\" \n\nFINAL: Disclosure Day",
+ "correct": true,
+ "cost": 0.0001531500000000463,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the Steven Spielberg film about extraterrestrial disclosure released in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aFvfgStFpFryde9V88b1x0sd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Steven Spielberg film extraterrestrial disclosure June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aFvfgStFpFryde9V88b1x0sd",
+   "content": "[Disclosure Day] <p class=\"mw-empty-elt\"> </p> <p><i><b>Disclosure Day</b></i> is a 2026 American science fiction thriller film directed and produced by Steven Spielberg from a screenplay by David Koepp, based on a story by Spielberg. The film stars an ensemble cast, including Emily Blunt, Josh O'Connor, Colin Firth, Eve Hewson, and Colman Domingo. In the film, a television meteorologist (Blunt) and a cybersecurity analyst (O'Connor) go on a mission to disclose the existence of extraterrestrial life to the world, while trying to evade the trail of a government contractor (Firth), who tries to prevent them from getting the secret out. </p><p>In April 2024, it was reported that Spielberg's next project would be a UFO film, with Koepp writing the screenplay. Within the next few months, Universal Pictures was announced as distributor and Blunt was cast in the lead role. Filming took place from February to May 2025 in New York and New Jersey. John Williams composed the film's score, marking his thirtieth collaboration with Spielberg. </p><p><i>Disclosure Day</i> premiered at Le Grand Rex in Paris on June 2, 2026, and was released theatrically in the United States on June 12. It received positive reviews and has grossed $241 million worldwide on a $115 million budget. </p> <h2 data-mw-anchor=\"Plot\" data-mw-wikitext=\"\">Plot</h2> <p>As the planet is on the brink of a nuclear war, cybersecurity specialist Dr. Daniel Kellner has stolen material from his employer, a secretive U.S. government contractor known as the Wardex Corporation (Waived Reporting, Development, and Extraction). Daniel's theft includes an artifact of extraterrestrial technology and \"The Archive\": decades of documents and hard drives containing footage of extraterrestrial encounters dating to the Roswell incident. When cornered by Wardex CEO Noah Scanlon, Daniel threatens him with the extraterrestrial device and escapes with his girlfriend, Jane Blankenship; they hide at her former convent. </p><p>In Kansas "
+  },
+  {
+   "role": "assistant",
+   "content": "The name of the Steven Spielberg film about extraterrestrial disclosure released in June 2026 is \"Disclosure Day.\" \n\nFINAL: Disclosure Day",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

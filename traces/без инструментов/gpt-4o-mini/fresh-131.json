@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "extension",
+  "question": "What was the name of the spacecraft that carried the Artemis II crew around the Moon in April 2026?",
+  "answer": "Orion",
+  "evidence": "The Orion space capsule seconds before splashing down in the Pacific Ocean, April...",
+  "page": "Artemis II",
+  "url": "https://www.britannica.com/topic/Artemis-II/images-videos"
+ },
+ "answer": "FINAL: Orion",
+ "correct": true,
+ "cost": 1.634999999999831e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the name of the spacecraft that carried the Artemis II crew around the Moon in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Orion",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

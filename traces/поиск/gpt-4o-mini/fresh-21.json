@@ -1,0 +1,164 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?",
+  "answer": "Gavin Snider",
+  "evidence": "June – Artist Gavin Snider accuses fellow artist and social media star Devon Rodriguez of presenting images of paintings of triumphant New York Knicks fans outside Madison Square Garden commissioned by the team from him to celebrate their 2026 NBA Championship, victory as his own. Rodriguez summarily removes his social media post introducing the work as his own.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "In June 2026, artist Gavin Snider accused fellow artist Devon Rodriguez of presenting his work as his own. \n\nFINAL: Gavin Snider",
+ "correct": true,
+ "cost": 0.0013519499999999907,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QgpsFzIesPl23PONyJIHBYOk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Devon Rodriguez artist accusation June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QgpsFzIesPl23PONyJIHBYOk",
+   "content": "[Devon Rodriguez] <p><b>Devon Rodriguez</b> (born April 8, 1996) is an American artist from New York City. He initially gained recognition for drawing a series of realistic portraits of commuters on the New York City Subway. In 2019, Rodriguez was a finalist in the Outwin Boochever Portrait Competition for his portrait of sculptor John Ahearn. In 2020, he joined the video hosting platform TikTok and quickly achieved a large following for quick-sketching commuters and capturing their reactions when the sketches were handed to them. Rodriguez is now the most followed visual artist on the platform. </p> <h2 data-mw-anchor=\"Early_life_and_education\" data-mw-wikitext=\"\">Early life and education</h2> <p>Devon Rodriguez was born on April 8, 1996 in the South Bronx to a family of Puerto Rican and Honduran descent. At age 8, he began doing graffiti with his friends but, after being arrested at age 13, he turned his attention to drawing portraits. In 2010, he applied for the High School of Art and Design in Manhattan, but was not accepted. He then attended Samuel Gompers High School in the Bronx for two years before being accepted to attend the High School of Art and Design in 2012. He graduated from that school in 2014, and later attended the Fashion Institute of Technology. </p> <h2 data-mw-anchor=\"Career\" data-mw-wikitext=\"\">Career</h2> <p>While Rodriguez was still in high school, sculptor John Ahearn attended a school portrait exhibit and took notice of Rodriguez's realist oil paintings of subway passengers. Ahearn then asked Rodriguez to be a subject for his own sculpted portrait. The resultant work, two plaster busts of Rodriguez called <i>The Rodriguez Twins</i>, was a finalist for the Outwin Boochever Portrait Competition and was displayed at the National Portrait Gallery in Washington, D.C. in 2016. Rodriguez attended the opening gala at the Gallery in place of Ahearn. </p><p>In 2015, Rodriguez's own pieces were featured in an issue of <i>Southwest Art</i>. His work,"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_J7j3rWT1iWy2gepS7GtfKMR0",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Devon Rodriguez artist controversy June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_J7j3rWT1iWy2gepS7GtfKMR0",
+   "content": "[Killing of Renée Good] <p class=\"mw-empty-elt\"> </p> <p class=\"mw-empty-elt\"> </p> <p>On January 7, 2026, <b>Renée Nicole Macklin Good</b>, a 37-year-old American woman, was fatally shot by United States Immigration and Customs Enforcement (ICE) agent Jonathan Ross in Minneapolis, Minnesota, during Operation Metro Surge. Good was in her car stopped sideways in the street, which led Ross to circle her vehicle on foot. Other agents approached, and one ordered her to get out of the car while reaching through her open window. Good briefly reversed, then began moving forward and to the right, into the direction of traffic. At this point, Ross was at the front-left of the vehicle which was turning away, when he fired three shots, killing her. The killing sparked national protests and multiple investigations. </p><p>Department of Homeland Security officials, Acting Attorney General Todd Blanche, and President Donald Trump defended the shooting, saying the agent acted in self-defense, that Good ran him over, and that the agent was recovering in a hospital. Their accounts of the shooting were contested by eyewitnesses, journalists, federal prosecutors, and Democratic Party lawmakers, some of whom called for criminal proceedings against Ross. The president and federal officials were criticized for espousing conclusions before any investigation had occurred. Minneapolis mayor Jacob Frey and Minnesota governor Tim Walz called on ICE to end their presence in the city. </p><p>The killing sparked widespread protests in Minneapolis and in cities across the country including Chicago, New York City, Los Angeles, San Francisco, Seattle, and Washington, D.C. Marches in Minneapolis prompted the closing of public schools and the deployment of more police officers. Federal agents used tear gas and pepper spray against protesters, and Governor Walz placed the National Guard on standby. </p><p>Leaders of the Department of Justice (DOJ)'s Civil Rights Division declined to open a constitutio"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wFQfXFL691Uiwo46uIWE2abB",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Devon Rodriguez artist plagiarism accusation June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wFQfXFL691Uiwo46uIWE2abB",
+   "content": "[Devon Rodriguez] <p><b>Devon Rodriguez</b> (born April 8, 1996) is an American artist from New York City. He initially gained recognition for drawing a series of realistic portraits of commuters on the New York City Subway. In 2019, Rodriguez was a finalist in the Outwin Boochever Portrait Competition for his portrait of sculptor John Ahearn. In 2020, he joined the video hosting platform TikTok and quickly achieved a large following for quick-sketching commuters and capturing their reactions when the sketches were handed to them. Rodriguez is now the most followed visual artist on the platform. </p> <h2 data-mw-anchor=\"Early_life_and_education\" data-mw-wikitext=\"\">Early life and education</h2> <p>Devon Rodriguez was born on April 8, 1996 in the South Bronx to a family of Puerto Rican and Honduran descent. At age 8, he began doing graffiti with his friends but, after being arrested at age 13, he turned his attention to drawing portraits. In 2010, he applied for the High School of Art and Design in Manhattan, but was not accepted. He then attended Samuel Gompers High School in the Bronx for two years before being accepted to attend the High School of Art and Design in 2012. He graduated from that school in 2014, and later attended the Fashion Institute of Technology. </p> <h2 data-mw-anchor=\"Career\" data-mw-wikitext=\"\">Career</h2> <p>While Rodriguez was still in high school, sculptor John Ahearn attended a school portrait exhibit and took notice of Rodriguez's realist oil paintings of subway passengers. Ahearn then asked Rodriguez to be a subject for his own sculpted portrait. The resultant work, two plaster busts of Rodriguez called <i>The Rodriguez Twins</i>, was a finalist for the Outwin Boochever Portrait Competition and was displayed at the National Portrait Gallery in Washington, D.C. in 2016. Rodriguez attended the opening gala at the Gallery in place of Ahearn. </p><p>In 2015, Rodriguez's own pieces were featured in an issue of <i>Southwest Art</i>. His work,"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_iI2hgfHUjnIbdrKMG95KY7b9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Devon Rodriguez June 2026 accusation artist\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_iI2hgfHUjnIbdrKMG95KY7b9",
+   "content": "[Devon Rodriguez] <p><b>Devon Rodriguez</b> (born April 8, 1996) is an American artist from New York City. He initially gained recognition for drawing a series of realistic portraits of commuters on the New York City Subway. In 2019, Rodriguez was a finalist in the Outwin Boochever Portrait Competition for his portrait of sculptor John Ahearn. In 2020, he joined the video hosting platform TikTok and quickly achieved a large following for quick-sketching commuters and capturing their reactions when the sketches were handed to them. Rodriguez is now the most followed visual artist on the platform. </p> <h2 data-mw-anchor=\"Early_life_and_education\" data-mw-wikitext=\"\">Early life and education</h2> <p>Devon Rodriguez was born on April 8, 1996 in the South Bronx to a family of Puerto Rican and Honduran descent. At age 8, he began doing graffiti with his friends but, after being arrested at age 13, he turned his attention to drawing portraits. In 2010, he applied for the High School of Art and Design in Manhattan, but was not accepted. He then attended Samuel Gompers High School in the Bronx for two years before being accepted to attend the High School of Art and Design in 2012. He graduated from that school in 2014, and later attended the Fashion Institute of Technology. </p> <h2 data-mw-anchor=\"Career\" data-mw-wikitext=\"\">Career</h2> <p>While Rodriguez was still in high school, sculptor John Ahearn attended a school portrait exhibit and took notice of Rodriguez's realist oil paintings of subway passengers. Ahearn then asked Rodriguez to be a subject for his own sculpted portrait. The resultant work, two plaster busts of Rodriguez called <i>The Rodriguez Twins</i>, was a finalist for the Outwin Boochever Portrait Competition and was displayed at the National Portrait Gallery in Washington, D.C. in 2016. Rodriguez attended the opening gala at the Gallery in place of Ahearn. </p><p>In 2015, Rodriguez's own pieces were featured in an issue of <i>Southwest Art</i>. His work,"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CWRblJ01aU6jbrLI9gsaxuVp",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Devon Rodriguez lawsuit June 2026 artist\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CWRblJ01aU6jbrLI9gsaxuVp",
+   "content": "[Devon Nicholson] <p><b>Devon Nicholson</b> is a Canadian professional wrestler who has wrestled under the names of <b>Kid Nichols</b>, <b>Hannibal</b> and <b>Blood Hunter</b>. He is also a professional wrestling promoter, running the Great North Wrestling company, and has a YouTube channel, The Hannibal TV. </p><p>A graduate of the Hart Dungeon, Nicholson has wrestled internationally with several promotions. Stampede Wrestling, IWA Puerto Rico, WWC Puerto Rico, Deep South Wrestling, WWE tryouts and the Ontario-based Great North Wrestling. </p><p>The Ontario Superior Court of Justice ruled in 2014 that Nicholson contracted hepatitis C from Abdullah the Butcher in a May 2007 professional wrestling match during which both wrestlers were cut and bled, and further determined Abdullah was responsible for WWE rescinding a contract offer made to Nicholson in 2009 after he was diagnosed with the disease. $2.3 million was awarded to Nicholson as a result of the court's ruling. Nicholson announced in 2013 that he was cured of hepatitis C. </p><p>In December 2021, Nicholson repeatedly stabbed a World Class Pro Wrestling (WCPW) referee with a spike, resulting in a severed artery in the referee's head that needed emergency surgery. According to the referee and Nicholson, the referee was scripted to bleed via blading. Various WCPW personnel said that Nicholson had gone off-script with the attack, and Nicholson was banned from WCPW, although Nicholson said that he quit before he was banned, and also said that the referee never indicated that he was legitimately injured. </p> <h2 data-mw-anchor=\"Early_life\" data-mw-wikitext=\"\">Early life</h2> <p>Devon Nicholson, from Orleans, attended Cairine Wilson Secondary School and achieved success in scholastic wrestling. He won a gold medal at the 2001 Junior National Championships in London, Ontario. A month later, he gained a spot on the Canadian Junior National Team after winning the National Team trials in Vancouver, British Columbia. Ni"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_b6UGPsf6avzqfLYxDtB9GFZO",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Devon Rodriguez June 2026 artist news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_b6UGPsf6avzqfLYxDtB9GFZO",
+   "content": "[2026 in art] <p class=\"mw-empty-elt\"> </p> <p>Significant events relating to the year <b>2026 in art</b> are listed below. </p> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <ul><li>February 5 – Michelangelo's preparatory sketch of a foot for <i>The Libyan Sibyl</i> is sold at Christie’s for $27.2 million including fees.</li> <li>March 2 – The Rijksmuseum in Amsterdam announces the retrieval of the long-lost Rembrandt painting <i>The Vision of Zacharias in the Temple</i> (1633).</li> <li>March 12 – Smiljan Radić is announced as the winner of the Pritzker Architecture Prize.</li> <li>March 22 – Paintings <i>Les Poissons</i> by Pierre-Auguste Renoir, <i>Still Life with Cherries</i> by Paul Cézanne, and <i>Odalisque on the Terrace</i> by Henri Matisse are stolen from the Italian museum Villa dei Capolavori by four masked men.</li> <li>April 19 – The Los Angeles County Museum of Art (LACMA) opens its new David Geffen galleries designed by architect Peter Zumthor, to exhibit its permanent collection.</li> <li>April 29 – Banksy erects a statue in central London overnight.</li> <li>April 30 – The entire Venice Biennale jury resigns, 9 days before the scheduled start of this year's show, over the inclusion of Russia.</li> <li>May 1 – It is announced that a Botticelli painting of <i>The Virgin and Child Enthroned</i> from the 1470s will remain in England, having been purchased for the collection of A. Gary Klesch, and will initially be loaned to the Ashmolean Museum in Oxford.</li> <li>May 8 – Richard Lewer wins the Archibald Prize for his portrait of the Pitjantjatjara elder and artist Iluwanti Ken.</li> <li>June – Artist Gavin Snider accuses fellow artist and social media star Devon Rodriguez of presenting images of paintings of triumphant New York Knicks fans outside Madison Square Garden commissioned by the team from him to celebrate their 2026 NBA Championship, victory as his own. Rodriguez summarily removes his social media post introducing the work as h"
+  },
+  {
+   "role": "assistant",
+   "content": "In June 2026, artist Gavin Snider accused fellow artist Devon Rodriguez of presenting his work as his own. \n\nFINAL: Gavin Snider",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

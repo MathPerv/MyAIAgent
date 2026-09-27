@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, in the special election for Georgia's 14th Congressional District in 2026, **Clay Fuller** (Republican) won the runoff election on April 7, 2026. Fuller, a former district attorney, defeated Democrat Shawn Harris, a retired Army brigadier general.\n\nFINAL: Clay Fuller (Republican) won the Georgia 14th Congressional District special election in 2026.",
+ "correct": true,
+ "cost": 0.006205000000000016,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the special election in Georgia in 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LjN49ELKAKZDuLPKBQTyKJ",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Georgia special election 2026 winner\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LjN49ELKAKZDuLPKBQTyKJ",
+   "content": "2026 Georgia's 14th congressional district special electionElection Results - results.sos.ga.govGeorgia's 14th Congressional District special election, 2026Georgia 14th District special election | CNN Politics:\n        href: https://en.wikipedia.org/wiki/2026_Georgia's_14th_congressional_district_special_election\n        content: \n        As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, [2] with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027. Election Results Clayton Fuller (R) defeated Shawn Harris (D) in a special runoff election to represent Georgia's 14th Congressional District on April 7, 2026. Neither received a majority of votes in a special election on March 10, 2026, with Harris receiving 37.3% of the vote and Fuller 34.9%. Republican Clay Fuller, a former district attorney, defeated Democrat Shawn Harris, a retired Army brigadier general, in a special election to replace former GOP Rep. Marjorie Taylor Greene. \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, in the special election for Georgia's 14th Congressional District in 2026, **Clay Fuller** (Republican) won the runoff election on April 7, 2026. Fuller, a former district attorney, defeated Democrat Shawn Harris, a retired Army brigadier general.\n\nFINAL: Clay Fuller (Republican) won the Georgia 14th Congressional District special election in 2026.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Извините, но у меня нет информации о дате объявления четырехдневной забастовки резидентов в Англии в июне 2026 года. FINAL: Неизвестно.",
+ "correct": false,
+ "cost": 0.002331899999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cX3WhYyNtkdLAs8hqRIikjFE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"resident doctors England four-day strike June 2026 announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cX3WhYyNtkdLAs8hqRIikjFE",
+   "content": "[2026 in the United States] <p class=\"mw-empty-elt\"> </p> <p>The following is a list of events of the year <b>2026 in the United States</b>, as well as predicted and scheduled events that have not yet occurred. </p><p>July 4, 2026 was the 250th anniversary of the signing of the Declaration of Independence of the United States from Great Britain. </p><p>Under the second year of Donald Trump's second presidency, the United States has engaged in attacks against its adversaries. In January 2026, the U.S. launched a military raid in Venezuela that captured its president Nicolás Maduro. In February 2026, the U.S. launched a major attack on Iran with Israel with the stated goal of regime change, killing its leader Ali Khamenei. Domestically, the US underwent two partial government shutdowns, with the first lasting four days, from January 31 to February 3, and the second lasting approximately 76 days, from February 14 to April 30, becoming the longest government shutdown in U.S. history and impacting the US Department of Homeland Security, with the core issue regarding the funding of Immigration and Customs Enforcement. In addition, 2026 saw the first major judicial actions against prediction markets, in particular Kalshi and the usage of its platform and other prediction markets to bypass state regulations on sports betting, with Nevada being the first to land a court-enforced ban of Kalshi and Arizona being the first to file criminal charges against Kalshi. </p><p>In science and technology, the most prominent story so far has been the April 2026 NASA mission Artemis II, the first crewed deep-space mission since 1972. Artemis II sent four astronauts—including the first woman, person of color, and Canadian—to circumnavigate the Moon. </p><p>The 2026 FIFA World Cup was held across the U.S., Canada, and Mexico from June to July; and planned events include the 2026 midterms in November. </p> <h2 data-mw-anchor=\"Incumbents\" data-mw-wikitext=\"\">Incumbents</h2> <h3 data-mw-anchor"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_m5vGv6Y3s4NWjHrhV0Nlcy85",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"resident doctors England strike June 2026 date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_m5vGv6Y3s4NWjHrhV0Nlcy85",
+   "content": "[2026 in England] <p class=\"mw-empty-elt\"> </p> <p>Events of the year <b>2026 in England</b>. </p> <h2 data-mw-anchor=\"Incumbent\" data-mw-wikitext=\"\">Incumbent</h2> <ul><li>Monarch – Charles III</li> <li>Prime Minister – Keir Starmer (until 20 July), Andy Burnham (since 20 July)</li></ul> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>1 January – Convicted murderer Matthew Armstrong and two other prisoners, Daniel Washbourne and Aaron Thomas, abscond from HMP Leyhill in Gloucestershire.</li> <li>2 January – <ul><li>The Brighton Pier Group announces that it is putting the Brighton Palace Pier up for sale.</li> <li>The number of flu cases is reported to have fallen, with the latest figures showing 2,676 people were in hospital with the virus, compared to just over 3,000 during the previous week.</li> <li>HM Coastguard recover the bodies of a man and a woman after the man tried to rescue a mother and her teenage daughter who got into difficulty in the sea at Withernsea, East Yorkshire. A search for the girl is called off the following day. The body of the girl is recovered on 16 January.</li></ul></li> <li>3 January – <ul><li>Damage to a gas pipe causes a gas outage in the Kingsbridge, Malborough and Salcombe areas of Devon.</li> <li>Aaron Thomas, who escaped from HMP Leyhill on New Year's Day, is recaptured in Bristol.</li></ul></li> <li>6 January – <ul><li>Fresh warnings for snow and ice are issued as Storm Goretti approaches England.</li> <li>The annual animal count at London Zoo begins.</li> <li>Jake Fahri, who was convicted of the 2008 murder of Jimmy Mizen, is recommended for open prison by the Parole Board.</li> <li>A mother has been charged with murdering her four-year-old daughter in a house fire in Manchester.</li> <li>Staff at two primary schools in Greater Manchester strike over claims their reports of violence and daily assaults are being ignored by senior leadership.</li></"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kvXJUVWFveMdhoo9s02rVodL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors strike June 2026 England announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kvXJUVWFveMdhoo9s02rVodL",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] <p class=\"mw-empty-elt\"> </p> <p>Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. </p><p>The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. </p><p>With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector. </p> <h2 data-mw-anchor=\"Transport\" data-mw-wikitext=\"\">Transport</h2> <h3 data-mw-anchor=\"Rail_transport\" data-mw-wikitext=\"\">Rail transport</h3> <h4 data-mw-anchor=\"National_Union_of_Rail,_Maritime_and_Transport_Workers\" data-mw-fallback-anchor=\"National_Union_of_Rail.2C_Maritime_and_Transport_Workers\" data-mw-wikitext=\"\">National Union of Rail, Maritime and Transport Workers</h4> <p>Following a ballot of National Union of Rail, Maritime and Transport Workers members over whether to take industrial action, it was announced on 24 May 2022 that they had voted in favour of strike action, paving the way for the UK's first national rail strike for three decades. Workers at Abellio Greater Anglia, Avanti West Coast, c2c, Chiltern Railways, CrossCountry, East Midlands Railway, Great Western, London North Eastern Railway, Northern Trains, Southeast"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VjRw93fo6YuljSdqPa7WeZRF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors England strike July 2026 announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VjRw93fo6YuljSdqPa7WeZRF",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] <p class=\"mw-empty-elt\"> </p> <p>Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. </p><p>The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. </p><p>With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector. </p> <h2 data-mw-anchor=\"Transport\" data-mw-wikitext=\"\">Transport</h2> <h3 data-mw-anchor=\"Rail_transport\" data-mw-wikitext=\"\">Rail transport</h3> <h4 data-mw-anchor=\"National_Union_of_Rail,_Maritime_and_Transport_Workers\" data-mw-fallback-anchor=\"National_Union_of_Rail.2C_Maritime_and_Transport_Workers\" data-mw-wikitext=\"\">National Union of Rail, Maritime and Transport Workers</h4> <p>Following a ballot of National Union of Rail, Maritime and Transport Workers members over whether to take industrial action, it was announced on 24 May 2022 that they had voted in favour of strike action, paving the way for the UK's first national rail strike for three decades. Workers at Abellio Greater Anglia, Avanti West Coast, c2c, Chiltern Railways, CrossCountry, East Midlands Railway, Great Western, London North Eastern Railway, Northern Trains, Southeast"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uzXn22OsEbFnV7SakGH9FKOX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors announcement four-day strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uzXn22OsEbFnV7SakGH9FKOX",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] <p class=\"mw-empty-elt\"> </p> <p>Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. </p><p>The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. </p><p>With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector. </p> <h2 data-mw-anchor=\"Transport\" data-mw-wikitext=\"\">Transport</h2> <h3 data-mw-anchor=\"Rail_transport\" data-mw-wikitext=\"\">Rail transport</h3> <h4 data-mw-anchor=\"National_Union_of_Rail,_Maritime_and_Transport_Workers\" data-mw-fallback-anchor=\"National_Union_of_Rail.2C_Maritime_and_Transport_Workers\" data-mw-wikitext=\"\">National Union of Rail, Maritime and Transport Workers</h4> <p>Following a ballot of National Union of Rail, Maritime and Transport Workers members over whether to take industrial action, it was announced on 24 May 2022 that they had voted in favour of strike action, paving the way for the UK's first national rail strike for three decades. Workers at Abellio Greater Anglia, Avanti West Coast, c2c, Chiltern Railways, CrossCountry, East Midlands Railway, Great Western, London North Eastern Railway, Northern Trains, Southeast"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8ru0yJYG0ebMfK8oXYSGYDEt",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors England July 2026 strike announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8ru0yJYG0ebMfK8oXYSGYDEt",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] <p class=\"mw-empty-elt\"> </p> <p>Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. </p><p>The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. </p><p>With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector. </p> <h2 data-mw-anchor=\"Transport\" data-mw-wikitext=\"\">Transport</h2> <h3 data-mw-anchor=\"Rail_transport\" data-mw-wikitext=\"\">Rail transport</h3> <h4 data-mw-anchor=\"National_Union_of_Rail,_Maritime_and_Transport_Workers\" data-mw-fallback-anchor=\"National_Union_of_Rail.2C_Maritime_and_Transport_Workers\" data-mw-wikitext=\"\">National Union of Rail, Maritime and Transport Workers</h4> <p>Following a ballot of National Union of Rail, Maritime and Transport Workers members over whether to take industrial action, it was announced on 24 May 2022 that they had voted in favour of strike action, paving the way for the UK's first national rail strike for three decades. Workers at Abellio Greater Anglia, Avanti West Coast, c2c, Chiltern Railways, CrossCountry, East Midlands Railway, Great Western, London North Eastern Railway, Northern Trains, Southeast"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_j7yLtc5TDjfKsVwlor4giYW2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"junior doctors England strike June 2026 announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_j7yLtc5TDjfKsVwlor4giYW2",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] <p class=\"mw-empty-elt\"> </p> <p>Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. </p><p>The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. </p><p>With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector. </p> <h2 data-mw-anchor=\"Transport\" data-mw-wikitext=\"\">Transport</h2> <h3 data-mw-anchor=\"Rail_transport\" data-mw-wikitext=\"\">Rail transport</h3> <h4 data-mw-anchor=\"National_Union_of_Rail,_Maritime_and_Transport_Workers\" data-mw-fallback-anchor=\"National_Union_of_Rail.2C_Maritime_and_Transport_Workers\" data-mw-wikitext=\"\">National Union of Rail, Maritime and Transport Workers</h4> <p>Following a ballot of National Union of Rail, Maritime and Transport Workers members over whether to take industrial action, it was announced on 24 May 2022 that they had voted in favour of strike action, paving the way for the UK's first national rail strike for three decades. Workers at Abellio Greater Anglia, Avanti West Coast, c2c, Chiltern Railways, CrossCountry, East Midlands Railway, Great Western, London North Eastern Railway, Northern Trains, Southeast"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Извините, но у меня нет информации о дате объявления четырехдневной забастовки резидентов в Англии в июне 2026 года. FINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

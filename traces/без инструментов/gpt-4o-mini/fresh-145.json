@@ -1,0 +1,30 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "extension",
+  "question": "Which actress starred in Her Private Hell as a character named Elle?",
+  "answer": "Sophie Thatcher",
+  "evidence": "Sophie Thatcher as Elle",
+  "page": "Her Private Hell (2026 film)",
+  "url": "https://en.wikipedia.org/wiki/Her_Private_Hell_(2026_film)"
+ },
+ "answer": "The actress who starred in \"Her Private Hell\" as the character named Elle is Koo Stark. \n\nFINAL: Koo Stark",
+ "correct": false,
+ "cost": 2.8799999999995496e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Which actress starred in Her Private Hell as a character named Elle?"
+  },
+  {
+   "role": "assistant",
+   "content": "The actress who starred in \"Her Private Hell\" as the character named Elle is Koo Stark. \n\nFINAL: Koo Stark",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

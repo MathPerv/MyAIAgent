@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-124",
+  "source": "fresh",
+  "question": "What city in Germany experienced a nightclub fire in March 2026?",
+  "answer": "Kehl",
+  "evidence": "29 March – A nightclub burns down in Kehl, Baden-Württemberg. All 750 people inside are evacuated, three of whom are treated for shock.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results, the city in Germany that experienced a nightclub fire in March 2026 was **Kehl**. The fire occurred at the K Club on March 29, 2026.\n\nFINAL: Kehl",
+ "correct": true,
+ "cost": 0.005881000000000025,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What city in Germany experienced a nightclub fire in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about a nightclub fire in Germany in March 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HSu13D3qs1magBscdvaQe7",
+     "function": {
+      "name": "search_duckduckgo",
+      "arguments": "{\"query\": \"Germany nightclub fire March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HSu13D3qs1magBscdvaQe7",
+   "content": "Major Fire Destroys German Nightclub, Evacuates Hundreds With ...:\n        href: https://www.edmtunes.com/2026/03/major-fire-destroys-german-nightclub/\n        content: \n        Mar 30, 2026 · A massive fire tore through the widely popular K Club in Kehl, Germany, in the early hours of Sunday, March 29, 2026, forcing the emergency evacuation of approximately 750 patrons. The blaze... \n        "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, the city in Germany that experienced a nightclub fire in March 2026 was **Kehl**. The fire occurred at the K Club on March 29, 2026.\n\nFINAL: Kehl",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
